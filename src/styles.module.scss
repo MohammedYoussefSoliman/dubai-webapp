@@ -1,0 +1,9 @@
+$main_color: #ff0000;
+
+.colored--container {
+  max-width: 150px;
+  img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
