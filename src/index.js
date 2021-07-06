@@ -3,7 +3,7 @@ import data from "../data/data.json";
 import scss from "./styles.module.scss";
 import logo from "./assets/logo.svg";
 
-console.log(data);
+// console.log(data);
 
 const newUnit = new Unit(401, "unit admin");
 
