@@ -31,28 +31,28 @@
           "rooms": [
             {
               "name": "room 1",
-              "x": 3.25,
-              "y": 2.7
+              "y": 3.25,
+              "x": 2.7
             },
             {
               "name": "room 2",
-              "x": 3.25,
-              "y": 2.85
+              "y": 3.25,
+              "x": 2.85
             },
             {
               "name": "workstation",
-              "x": 6.8,
-              "y": 6
+              "y": 6.8,
+              "x": 6
             },
             {
               "name": "W.C",
-              "x": 1.55,
-              "y": 1.45
+              "y": 1.55,
+              "x": 1.45
             },
             {
               "name": "kitchenette",
-              "x": 1.55,
-              "y": 1
+              "y": 1.55,
+              "x": 1
             }
           ]
         },
@@ -73,23 +73,23 @@
           "rooms": [
             {
               "name": "room 1",
-              "x": 3,
-              "y": 3
+              "y": 3,
+              "x": 3
             },
             {
               "name": "room 2",
-              "x": 3,
-              "y": 3
+              "y": 3,
+              "x": 3
             },
             {
               "name": "workstation",
-              "x": 6.1,
-              "y": 4.3
+              "y": 6.1,
+              "x": 4.3
             },
             {
               "name": "W.C",
-              "x": 2.1,
-              "y": 1.85
+              "y": 2.1,
+              "x": 1.85
             }
           ]
         },
@@ -110,18 +110,18 @@
           "rooms": [
             {
               "name": "room 1",
-              "x": 3,
-              "y": 2.8
+              "y": 3,
+              "x": 2.8
             },
             {
               "name": "workstation",
-              "x": 3.15,
-              "y": 3
+              "y": 3.15,
+              "x": 3
             },
             {
               "name": "W.C",
-              "x": 1.8,
-              "y": 1.5
+              "y": 1.8,
+              "x": 1.5
             }
           ]
         },
@@ -142,18 +142,18 @@
           "rooms": [
             {
               "name": "room 1",
-              "x": 3,
-              "y": 2.8
+              "y": 3,
+              "x": 2.8
             },
             {
               "name": "workstation",
-              "x": 3.15,
-              "y": 3
+              "y": 3.15,
+              "x": 3
             },
             {
               "name": "W.C",
-              "x": 1.8,
-              "y": 1.5
+              "y": 1.8,
+              "x": 1.5
             }
           ]
         },
@@ -174,18 +174,18 @@
           "rooms": [
             {
               "name": "room 1",
-              "x": 3,
-              "y": 2.7
+              "y": 3,
+              "x": 2.7
             },
             {
               "name": "workstation",
-              "x": 4.5,
-              "y": 1.3
+              "y": 4.5,
+              "x": 1.3
             },
             {
               "name": "W.C",
-              "x": 1.45,
-              "y": 1.4
+              "y": 1.45,
+              "x": 1.4
             }
           ]
         },
@@ -206,18 +206,18 @@
           "rooms": [
             {
               "name": "room 1",
-              "x": 4.1,
-              "y": 3
+              "y": 4.1,
+              "x": 3
             },
             {
               "name": "workstation",
-              "x": 2.2,
-              "y": 1.45
+              "y": 2.2,
+              "x": 1.45
             },
             {
               "name": "W.C",
-              "x": 1.8,
-              "y": 1.45
+              "y": 1.8,
+              "x": 1.45
             }
           ]
         },
@@ -238,18 +238,18 @@
           "rooms": [
             {
               "name": "room 1",
-              "x": 3,
-              "y": 2.8
+              "y": 3,
+              "x": 2.8
             },
             {
               "name": "workstation",
-              "x": 4.1,
-              "y": 3.2
+              "y": 4.1,
+              "x": 3.2
             },
             {
               "name": "W.C",
-              "x": 2.45,
-              "y": 1
+              "y": 2.45,
+              "x": 1
             }
           ]
         },
@@ -270,18 +270,18 @@
           "rooms": [
             {
               "name": "room 1",
-              "x": 3,
-              "y": 2.8
+              "y": 3,
+              "x": 2.8
             },
             {
               "name": "workstation",
-              "x": 4.1,
-              "y": 3.2
+              "y": 4.1,
+              "x": 3.2
             },
             {
               "name": "W.C",
-              "x": 2.45,
-              "y": 1
+              "y": 2.45,
+              "x": 1
             }
           ]
         },
@@ -302,18 +302,18 @@
           "rooms": [
             {
               "name": "room 1",
-              "x": 3,
-              "y": 2.8
+              "y": 3,
+              "x": 2.8
             },
             {
               "name": "workstation",
-              "x": 4.1,
-              "y": 3.2
+              "y": 4.1,
+              "x": 3.2
             },
             {
               "name": "W.C",
-              "x": 2.45,
-              "y": 1
+              "y": 2.45,
+              "x": 1
             }
           ]
         },
@@ -334,18 +334,18 @@
           "rooms": [
             {
               "name": "room 1",
-              "x": 3,
-              "y": 2.8
+              "y": 3,
+              "x": 2.8
             },
             {
               "name": "workstation",
-              "x": 4.1,
-              "y": 3.2
+              "y": 4.1,
+              "x": 3.2
             },
             {
               "name": "W.C",
-              "x": 2.45,
-              "y": 1
+              "y": 2.45,
+              "x": 1
             }
           ]
         },
@@ -366,18 +366,18 @@
           "rooms": [
             {
               "name": "room 1",
-              "x": 3.1,
-              "y": 3
+              "y": 3.1,
+              "x": 3
             },
             {
               "name": "workstation",
-              "x": 6.8,
-              "y": 3
+              "y": 6.8,
+              "x": 3
             },
             {
               "name": "W.C",
-              "x": 2.7,
-              "y": 1
+              "y": 2.7,
+              "x": 1
             }
           ]
         },
@@ -398,23 +398,23 @@
           "rooms": [
             {
               "name": "room 1",
-              "x": 5.4,
-              "y": 3.35
+              "y": 5.4,
+              "x": 3.35
             },
             {
               "name": "reception",
-              "x": 5.5,
-              "y": 3.4
+              "y": 5.5,
+              "x": 3.4
             },
             {
               "name": "kitchen",
-              "x": 2.45,
-              "y": 1.8
+              "y": 2.45,
+              "x": 1.8
             },
             {
               "name": "W.C",
-              "x": 2.6,
-              "y": 2.05
+              "y": 2.6,
+              "x": 2.05
             }
           ]
         },
@@ -435,13 +435,13 @@
           "rooms": [
             {
               "name": "room 1",
-              "x": 4.9,
-              "y": 4.05
+              "y": 4.9,
+              "x": 4.05
             },
             {
               "name": "W.C",
-              "x": 2.1,
-              "y": 1.9
+              "y": 2.1,
+              "x": 1.9
             }
           ]
         },
@@ -462,13 +462,13 @@
           "rooms": [
             {
               "name": "room 1",
-              "x": 4.9,
-              "y": 4.05
+              "y": 4.9,
+              "x": 4.05
             },
             {
               "name": "W.C",
-              "x": 2.1,
-              "y": 1.9
+              "y": 2.1,
+              "x": 1.9
             }
           ]
         },
@@ -489,13 +489,13 @@
           "rooms": [
             {
               "name": "room 1",
-              "x": 4.9,
-              "y": 4.05
+              "y": 4.9,
+              "x": 4.05
             },
             {
               "name": "W.C",
-              "x": 2.1,
-              "y": 1.9
+              "y": 2.1,
+              "x": 1.9
             }
           ]
         },
@@ -516,13 +516,13 @@
           "rooms": [
             {
               "name": "room 1",
-              "x": 3.1,
-              "y": 2.9
+              "y": 3.1,
+              "x": 2.9
             },
             {
               "name": "reception",
-              "x": 4.1,
-              "y": 3
+              "y": 4.1,
+              "x": 3
             },
             {
               "name": "W.C",
@@ -548,18 +548,18 @@
           "rooms": [
             {
               "name": "room 1",
-              "x": 3.1,
-              "y": 2.9
+              "y": 3.1,
+              "x": 2.9
             },
             {
               "name": "reception",
-              "x": 4.1,
-              "y": 3
+              "y": 4.1,
+              "x": 3
             },
             {
               "name": "W.C",
-              "x": 2.1,
-              "y": 1.7
+              "y": 2.1,
+              "x": 1.7
             }
           ]
         },
@@ -580,18 +580,18 @@
           "rooms": [
             {
               "name": "room 1",
-              "x": 4.6,
-              "y": 3.6
+              "y": 4.6,
+              "x": 3.6
             },
             {
               "name": "reception & kitchen",
-              "x": 5.45,
-              "y": 3.6
+              "y": 5.45,
+              "x": 3.6
             },
             {
               "name": "W.C",
-              "x": 2.3,
-              "y": 2.05
+              "y": 2.3,
+              "x": 2.05
             }
           ]
         },
@@ -1392,6 +1392,387 @@
             "shape": {
               "d": "M606.864,7308.771h20.66v49.653h-20.66Z",
               "transform": "translate(422.348 -7091.125)"
+            },
+            "outdoor": {
+              "d": "M1142.864,343.243h22.67V306.794h-22.67Z",
+              "transform": "translate(-113.652 -127.941)"
+            }
+          },
+          {
+            "id": 2,
+            "name": "02",
+            "type": "shop",
+            "shape": {
+              "d": "M471.654,7308.771h64.725v26.274H471.654Z",
+              "transform": "translate(491.973 -7091.125)"
+            },
+            "outdoor": {
+              "d": "M1029.212,306.794V343.24H961.347v29.395H922.154v-65.84Z",
+              "transform": "translate(0 -127.941)"
+            }
+          },
+          {
+            "id": 3,
+            "name": "03",
+            "type": "shop",
+            "shape": {
+              "d": "M471.654,7308.771h64.725v27.108H471.654Z",
+              "transform": "translate(491.973 -7063.476)"
+            },
+            "outdoor": {
+              "d": "M922.154,442.529h39.193v28.116H922.154Z",
+              "transform": "translate(0 -197.836)"
+            }
+          },
+          {
+            "id": 4,
+            "name": "04",
+            "type": "shop",
+            "shape": {
+              "d": "M471.654,7308.771h64.725v26.292H471.654Z",
+              "transform": "translate(491.973 -7063.476)"
+            },
+            "outdoor": {
+              "d": "M961.347,500.492H922.154v61.337h93.867V529.691H961.347Z",
+              "transform": "translate(0 -227.684)"
+            }
+          },
+          {
+            "id": 5,
+            "name": "05",
+            "type": "shop",
+            "shape": {
+              "d": "M789.247,7435.125H809.46v20.827H789.247Z",
+              "transform": "translate(328.432 -7156.189)"
+            },
+            "outdoor": {
+              "d": "M961.347,500.492H922.154v61.337h93.867V529.691H961.347Z",
+              "transform": "translate(-204.24 -258.714)"
+            }
+          },
+          {
+            "id": 6,
+            "name": "06",
+            "type": "shop",
+            "shape": {
+              "d": "M789.247,7435.125H809.46v7.574h-5.135v6.949h5.135v6.3H789.247Z",
+              "transform": "translate(350.26 -7156.189)"
+            },
+            "outdoor": {
+              "d": "M1368.352,588.107h21.857V560.6h-21.857Z",
+              "transform": "translate(-229.764 -258.634)"
+            }
+          },
+          {
+            "id": 7,
+            "name": "07",
+            "type": "shop",
+            "shape": {
+              "d": "M789.247,7435.125H809.46v20.827H789.247Z",
+              "transform": "translate(372.088 -7156.189)"
+            },
+            "outdoor": {
+              "d": "M1413.414,560.752h22.008v27.36h-22.008Z",
+              "transform": "translate(-252.968 -258.714)"
+            }
+          },
+          {
+            "id": 8,
+            "name": "08",
+            "type": "shop",
+            "shape": {
+              "d": "M789.247,7435.125h17.844v7.134h2.369v13.692H789.247Z",
+              "transform": "translate(393.916 -7156.189)"
+            },
+            "outdoor": {
+              "d": "M1458.786,560.752h19.295v27.435h-19.295Z",
+              "transform": "translate(-276.332 -258.714)"
+            }
+          },
+          {
+            "id": 9,
+            "name": "09",
+            "type": "shop",
+            "shape": {
+              "d": "M809.46,7435.125H791.975v7.134h-2.728v13.692H809.46Z",
+              "transform": "translate(415.259 -7156.189)"
+            },
+            "outdoor": {
+              "d": "M1498.564,588.027h25.023V560.441h-25.023Z",
+              "transform": "translate(-296.815 -258.554)"
+            }
+          },
+          {
+            "id": 10,
+            "name": "10",
+            "type": "shop",
+            "shape": {
+              "d": "M1075.689,7419.961h34v1.531h-7.861v6.534h7.861v20.213h-34Z",
+              "transform": "translate(180.933 -7148.381)"
+            },
+            "outdoor": {
+              "d": "M1610.766,528.109v27.451h65.746V497.653h-28.807v30.456Z",
+              "transform": "translate(-354.592 -226.222)"
+            }
+          },
+          {
+            "id": 11,
+            "name": "11",
+            "type": "shop",
+            "shape": {
+              "d": "M1104.1,7347.561h20.316v33.689H1104.1Z",
+              "transform": "translate(166.302 -7111.099)"
+            },
+            "outdoor": {
+              "d": "M1638.642,378.878h52.126v57.516h-28.513V399.454h-23.614Z",
+              "transform": "translate(-368.946 -165.06)"
+            }
+          },
+          {
+            "id": 12,
+            "name": "12",
+            "type": "shop",
+            "shape": {
+              "d": "M1059.063,7347.562h20.724v33.689h-20.724Z",
+              "transform": "translate(189.494 -7111.1)"
+            },
+            "outdoor": {
+              "d": "M1614.406,399.247h-22.83V378.475h22.83Z",
+              "transform": "translate(-344.711 -164.852)"
+            }
+          },
+          {
+            "id": 13,
+            "name": "13",
+            "type": "shop",
+            "shape": {
+              "d": "M1012.725,7347.561h21.082V7366.8h-.967v1.45h-3.322v8.457h4.6v4.712h-21.394Z",
+              "transform": "translate(213.355 -7111.099)"
+            },
+            "outdoor": {
+              "d": "M1569.421,399.247h-20.87V378.475h20.87Z",
+              "transform": "translate(-322.555 -164.852)"
+            }
+          },
+          {
+            "id": 14,
+            "name": "14",
+            "type": "shop",
+            "shape": {
+              "d": "M1525.355,399.247h-21.85V378.475h21.85Z",
+              "transform": "translate(213.355 -7111.099)"
+            },
+            "outdoor": {
+              "d": "M1525.355,399.247h-21.85V378.475h21.85Z",
+              "transform": "translate(-299.359 -164.852)"
+            }
+          },
+          {
+            "id": 15,
+            "name": "15",
+            "type": "shop",
+            "shape": {
+              "d": "M969.016,7347.562h20.44v40.99h-20.44Z",
+              "transform": "translate(213.991 -7111.1)"
+            },
+            "outdoor": {
+              "d": "M1458.257,399.35h21.85V378.676h-21.85Z",
+              "transform": "translate(-276.06 -164.956)"
+            }
+          },
+          {
+            "id": 16,
+            "name": "16",
+            "type": "shop",
+            "shape": {
+              "d": "M969.016,7347.562h20.44v40.99h-20.44V7377h2.155l-.085-7.77h-2.07Z",
+              "transform": "translate(192.119 -7111.1)"
+            },
+            "outdoor": {
+              "d": "M1413.414,399.454h21.948V378.878h-21.948Z",
+              "transform": "translate(-252.968 -165.06)"
+            }
+          },
+          {
+            "id": 17,
+            "name": "17",
+            "type": "shop",
+            "shape": {
+              "d": "M969.016,7347.562h21v21.722h-2.531v7.644h2.531v11.624h-21Z",
+              "transform": "translate(169.911 -7111.1)"
+            },
+            "outdoor": {
+              "d": "M1369.049,391.133V362.719l21.324,9.8v18.617Z",
+              "transform": "translate(-230.123 -156.739)"
+            }
+          },
+          {
+            "id": 18,
+            "name": "18",
+            "type": "shop",
+            "shape": {
+              "d": "M787.984,7347.562H808.81v41.054H787.984Z",
+              "transform": "translate(329.083 -7111.1)"
+            },
+            "outdoor": {
+              "d": "M1321.97,380.21V341.5l22.7,10.288V380.21Z",
+              "transform": "translate(-205.88 -145.815)"
+            }
+          },
+          {
+            "id": 19,
+            "name": "19",
+            "type": "shop",
+            "shape": {
+              "d": "M787.984,7347.562h20.883v41.466H787.984Z",
+              "transform": "translate(307.223 -7111.1)"
+            },
+            "outdoor": {
+              "d": "M1278.919,370.328h20.755v-38.41l-20.755-9.6Z",
+              "transform": "translate(-183.711 -135.934)"
+            }
+          },
+          {
+            "id": 20,
+            "name": "20",
+            "type": "shop",
+            "shape": {
+              "d": "M787.984,7347.562h20.883v41.466H787.984v-14.083h2.492v-6.276h-2.492Z",
+              "transform": "translate(285.364 -7111.1)"
+            },
+            "outdoor": {
+              "d": "M1230,306.794h7.251l16.363,7.525v48.109H1230Z",
+              "transform": "translate(-158.521 -127.941)"
+            }
+          },
+          {
+            "id": 21,
+            "name": "21",
+            "type": "shop",
+            "shape": {
+              "d": "M798.3,7127.638H836.07v4.7h-5.1v6.33h5.1v24.808H798.3Z",
+              "transform": "translate(323.772 -6997.852)"
+            },
+            "outdoor": {
+              "d": "M1278.68,205.637h25.095v38.188h40.238v25h-7.452l-42.557-18.711a10.929,10.929,0,0,1-8.279-8.777Z",
+              "transform": "translate(-183.589 -75.852)"
+            }
+          },
+          {
+            "id": 22,
+            "name": "22",
+            "type": "shop",
+            "shape": {
+              "d": "M878.7,7127.638h20.622v35.936H878.7Z",
+              "transform": "translate(304.219 -6997.852)"
+            },
+            "outdoor": {
+              "d": "M1413.414,284.107v25.28h21.653v-25.28Z",
+              "transform": "translate(-252.968 -116.259)"
+            }
+          },
+          {
+            "id": 23,
+            "name": "23",
+            "type": "shop",
+            "shape": {
+              "d": "M878.7,7127.638h20.622v35.936H878.7Z",
+              "transform": "translate(304.219 -6997.852)"
+            },
+            "outdoor": {
+              "d": "M1458.257,284.107H1480.2v25.475h-21.947Z",
+              "transform": "translate(-276.06 -116.259)"
+            }
+          },
+          {
+            "id": 24,
+            "name": "24",
+            "type": "shop",
+            "shape": {
+              "d": "M878.7,7127.638h10.777v7.007h3.4v-.974h2.961v-6.034h2.855v35.936H878.7Z",
+              "transform": "translate(326.066 -6997.852)"
+            },
+            "outdoor": {
+              "d": "M1503.3,284.107h21.947v25.475H1503.3Z",
+              "transform": "translate(-299.255 -116.259)"
+            }
+          },
+          {
+            "id": 25,
+            "name": "25",
+            "type": "shop",
+            "shape": {
+              "d": "M1012.964,7095.938h43.163v17.748h-4.79v5.968h4.79v27.407h-43.395Z",
+              "transform": "translate(213.352 -6981.529)"
+            },
+            "outdoor": {
+              "d": "M1548.548,284.107h43.68v25.376h-43.68Z",
+              "transform": "translate(-322.554 -116.259)"
+            }
+          },
+          {
+            "id": 26,
+            "name": "26",
+            "type": "shop",
+            "shape": {
+              "d": "M1104.945,7153.73h20.111V7176.8h-20.111Z",
+              "transform": "translate(165.868 -7011.289)"
+            },
+            "outdoor": {
+              "d": "M1638.841,256.675h22.777V230.834h29.545v51.252h-52.322Z",
+              "transform": "translate(-369.049 -88.827)"
+            }
+          },
+          {
+            "id": 27,
+            "name": "27",
+            "type": "shop",
+            "shape": {
+              "d": "M1104.945,7153.73h20.111v23.815h-20.111Z",
+              "transform": "translate(165.868 -7036.635)"
+            },
+            "outdoor": {
+              "d": "M1686.129,204.072V178.863h29.3v25.209Z",
+              "transform": "translate(-393.399 -62.065)"
+            }
+          },
+          {
+            "id": 28,
+            "name": "28",
+            "type": "shop",
+            "shape": {
+              "d": "M1104.945,7153.73h20.111v23.542h-20.111Z",
+              "transform": "translate(165.868 -7061.374)"
+            },
+            "outdoor": {
+              "d": "M1613.921,117.067h29.424V58.856H1545.9V90.7h68.019Z",
+              "transform": "translate(-321.191 -0.269)"
+            }
+          },
+          {
+            "id": 29,
+            "name": "29",
+            "type": "shop",
+            "shape": {
+              "d": "M915.909,7051.02v4.9h6.934v31.1H902.736v-36Z",
+              "transform": "translate(269.993 -6958.399)"
+            },
+            "outdoor": {
+              "d": "M1413.37,90.619V58.677h50.579V90.619Z",
+              "transform": "translate(-252.946 -0.177)"
+            }
+          },
+          {
+            "id": 30,
+            "name": "30",
+            "type": "shop",
+            "shape": {
+              "d": "M798.3,7051.02h49.481v36H798.3Z",
+              "transform": "translate(323.772 -6958.399)"
+            },
+            "outdoor": {
+              "d": "M1289.759,126.862h-24.966l-12.738-68.528h78.336V90.178h-40.633Z",
+              "transform": "translate(-169.879 0)"
             }
           }
         ]
@@ -1403,15 +1784,522 @@
           "transform": "translate(-909.345 -10007.381)"
         },
         "svg": {
-          "viewBox": "0 0 500 748.284"
+          "viewBox": "0 0 1060 695"
         },
         "g": {
-          "transform": "translate(-806 -10)"
+          "transform": "translate(-815)"
         },
         "image": {
-          "xlink": "./images/zamall-plans/FIRST-FLOOR.png",
-          "transform": "translate(806 10)"
-        }
+          "xlink": "./assets/images/floor_plans/01.png",
+          "transform": "translate(1875)"
+        },
+        "previewg": {
+          "transform": "translate(-878.025 -53.013)"
+        },
+        "units": [
+          {
+            "id": 1,
+            "name": "01",
+            "type": "shop",
+            "unit": null,
+            "plan": "shop-01",
+            "shape": {
+              "d": "M531.7,8142.905h59.648v78.412H531.7Z",
+              "transform": "translate(536 -7715)"
+            },
+            "planInfo": {
+              "area": 14,
+              "rooms": null
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 2,
+            "name": "02",
+            "type": "shop",
+            "unit": null,
+            "plan": "shop-02",
+            "shape": {
+              "d": "M342.025,8142.905h58.223v2.428h8.168v-2.428H529.041v78.6H408.416v-4.939h-8.168v4.939H342.025Z",
+              "transform": "translate(536 -7715)"
+            },
+            "planInfo": {
+              "area": 40,
+              "rooms": null
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 3,
+            "name": "03",
+            "type": "shop",
+            "unit": null,
+            "plan": "shop-03",
+            "shape": {
+              "d": "M342.025,8224.646h58.527v14.076h17.533v-14.076h82.481v74.332H342.025Z",
+              "transform": "translate(536 -7715)"
+            },
+            "planInfo": {
+              "area": 32,
+              "rooms": null
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 4,
+            "name": "04",
+            "type": "shop",
+            "unit": null,
+            "plan": "shop-04",
+            "shape": {
+              "d": "M342.025,8303.182H528.472v57.045H512.914v20.25H408.454v-2.717h-8.4v2.717H342.025Z",
+              "transform": "translate(536 -7715)"
+            },
+            "planInfo": {
+              "area": 40,
+              "rooms": null
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 5,
+            "name": "05",
+            "type": "shop",
+            "unit": null,
+            "plan": "shop-05",
+            "shape": {
+              "d": "M783.778,8261.965h61.167v118.346H783.778Z",
+              "transform": "translate(536 -7715)"
+            },
+            "planInfo": {
+              "area": 20,
+              "rooms": null
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 6,
+            "name": "06",
+            "type": "shop",
+            "unit": null,
+            "plan": "shop-06",
+            "shape": {
+              "d": "M847.985,8261.965h52.049v19.756h7.978v61.548H892.056v17.476h15.957v16.527h-2.659v3.609H847.985Z",
+              "transform": "translate(536 -7715)"
+            },
+            "planInfo": {
+              "area": 20,
+              "rooms": null
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 7,
+            "name": "07",
+            "type": "shop",
+            "unit": null,
+            "plan": "shop-07",
+            "shape": {
+              "d": "M917.891,8261.965v19.755h-6.649v98.97H971.08V8261.965Z",
+              "transform": "translate(536 -7715)"
+            },
+            "planInfo": {
+              "area": 20,
+              "rooms": null
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 8,
+            "name": "08",
+            "type": "shop",
+            "unit": null,
+            "plan": "shop-08",
+            "shape": {
+              "d": "M1034.146,8261.965h-60.6V8379.93h57.938v-2.09h2.659V8340.8h-6.459v-23.365h6.459Z",
+              "transform": "translate(536 -7715)"
+            },
+            "planInfo": {
+              "area": 20,
+              "rooms": null
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 9,
+            "name": "09",
+            "type": "shop",
+            "unit": null,
+            "plan": "shop-09",
+            "shape": {
+              "d": "M1037,8261.965h60.218v118.725h-57.368v-3.039H1037v-37.042h6.839v-23.176H1037Z",
+              "transform": "translate(536 -7715)"
+            },
+            "planInfo": {
+              "area": 20,
+              "rooms": null
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 10,
+            "name": "10",
+            "type": "shop",
+            "unit": null,
+            "plan": "shop-10",
+            "shape": {
+              "d": "M1099.579,8380.689h57.573v-3.429h3.069V8281.7h-13.005v-19.873h-47.636Z",
+              "transform": "translate(536 -7715)"
+            },
+            "planInfo": {
+              "area": 20,
+              "rooms": null
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 11,
+            "name": "11",
+            "type": "shop",
+            "unit": null,
+            "plan": "shop-11",
+            "shape": {
+              "d": "M1225.385,8261.965h-60.736V8281.9h-1.14v95.55h2.849v3.229h115.876s-.76-3.42,0-3.229a15.639,15.639,0,0,0,3.039,0v-55.658h-59.889Z",
+              "transform": "translate(536 -7715)"
+            },
+            "planInfo": {
+              "area": 31,
+              "rooms": null
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 12,
+            "name": "12",
+            "type": "shop",
+            "unit": null,
+            "plan": "shop-12",
+            "shape": {
+              "d": "M1285.273,8217.885h-57.748v101.059h35.523v-14.437h22.225v-43.121h-2.659V8253.6h2.659Z",
+              "transform": "translate(536 -7715)"
+            },
+            "planInfo": {
+              "area": 16,
+              "rooms": null
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 13,
+            "name": "13",
+            "type": "shop",
+            "unit": null,
+            "plan": "shop-12",
+            "shape": {
+              "d": "M1227.525,8113.786h58.128v100.679h-58.128Z",
+              "transform": "translate(536 -7715)"
+            },
+            "planInfo": {
+              "area": 16,
+              "rooms": null
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 14,
+            "name": "14",
+            "type": "shop",
+            "unit": null,
+            "plan": "shop-14",
+            "shape": {
+              "d": "M1227.525,8008.738h58.128v101.819h-58.128Z",
+              "transform": "translate(536 -7715)"
+            },
+            "planInfo": {
+              "area": 17,
+              "rooms": null
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 15,
+            "name": "15",
+            "type": "shop",
+            "unit": null,
+            "plan": "shop-15",
+            "shape": {
+              "d": "M1227.525,7905.779h54.9v3.8h3.039V7990.5h-3.039v8.168h3.039v7.788h-57.938Z",
+              "transform": "translate(536 -7715)"
+            },
+            "planInfo": {
+              "area": 17,
+              "rooms": null
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 16,
+            "name": "16",
+            "type": "shop",
+            "unit": null,
+            "plan": "shop-16",
+            "shape": {
+              "d": "M1227.525,7781.735h54.9v2.47h3.229V7903.12h-58.128v-6.838h-17.1v6.838h-47.11v-58.128h64.207Z",
+              "transform": "translate(536 -7715)"
+            },
+            "planInfo": {
+              "area": 30,
+              "rooms": null
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 17,
+            "name": "17",
+            "type": "shop",
+            "unit": null,
+            "plan": "shop-17",
+            "shape": {
+              "d": "M1057.642,7847.856h43.837v-3.507h58.6v59.18h-73.354v-14.758H1069.04v14.758h-11.4Z",
+              "transform": "translate(536 -7715)"
+            },
+            "planInfo": {
+              "area": 17,
+              "rooms": null
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 18,
+            "name": "18",
+            "type": "shop",
+            "unit": null,
+            "plan": "shop-18",
+            "shape": {
+              "d": "M1004.511,7796.926H983.805v-15.2H944.673V7903.3h59.838Z",
+              "transform": "translate(536 -7715)"
+            },
+            "planInfo": {
+              "area": 21,
+              "rooms": null
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 19,
+            "name": "19",
+            "type": "shop",
+            "unit": null,
+            "plan": "shop-19",
+            "shape": {
+              "d": "M785.79,7768.013H906.054v13.582H942.6v121.5H785.79Z",
+              "transform": "translate(536 -7715)"
+            },
+            "planInfo": {
+              "area": 56,
+              "rooms": null
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 20,
+            "name": "20",
+            "type": "shop",
+            "unit": null,
+            "plan": "shop-20",
+            "shape": {
+              "d": "M785.79,7905.964H893.384v102.2H785.79Z",
+              "transform": "translate(536 -7715)"
+            },
+            "planInfo": {
+              "area": 32,
+              "rooms": null
+            },
+            "isAvailable": false
+          }
+        ],
+        "unitsPrev": [
+          {
+            "id": 1,
+            "name": "01",
+            "type": "shop",
+            "shape": {
+              "d": "M531.7,8142.905h25.3v33.265H531.7Z",
+              "transform": "translate(426.791 -7930.85)"
+            }
+          },
+          {
+            "id": 2,
+            "name": "02",
+            "type": "shop",
+            "shape": {
+              "d": "M342.025,8142.905h24.7v1.03h3.465v-1.03h51.173v33.346H370.19v-2.1h-3.465v2.1h-24.7Z",
+              "transform": "translate(536 -7930.85)"
+            }
+          },
+          {
+            "id": 3,
+            "name": "03",
+            "type": "shop",
+            "shape": {
+              "d": "M342.025,8224.646h24.829v5.972h7.438v-5.972h34.991v31.534H342.025Z",
+              "transform": "translate(536 -7977.913)"
+            }
+          },
+          {
+            "id": 4,
+            "name": "04",
+            "type": "shop",
+            "shape": {
+              "d": "M342.025,8303.182h79.1v24.2h-6.6v8.59H370.207v-1.152h-3.562v1.152h-24.62Z",
+              "transform": "translate(536 -8023.132)"
+            }
+          },
+          {
+            "id": 5,
+            "name": "05",
+            "type": "shop",
+            "shape": {
+              "d": "M783.778,8261.965h25.949v50.206H783.778Z",
+              "transform": "translate(281.654 -7999.4)"
+            }
+          },
+          {
+            "id": 6,
+            "name": "06",
+            "type": "shop",
+            "shape": {
+              "d": "M847.985,8261.965h22.081v8.381h3.385v26.111h-6.769v7.413h6.769v7.012h-1.128v1.531H847.985Z",
+              "transform": "translate(244.686 -7999.4)"
+            }
+          },
+          {
+            "id": 7,
+            "name": "07",
+            "type": "shop",
+            "shape": {
+              "d": "M914.063,8261.965v8.381h-2.821v41.986h25.385v-50.367Z",
+              "transform": "translate(208.265 -7999.4)"
+            }
+          },
+          {
+            "id": 8,
+            "name": "08",
+            "type": "shop",
+            "shape": {
+              "d": "M999.257,8261.965H973.549v50.045h24.579v-.887h1.128v-15.715h-2.74V8285.5h2.74Z",
+              "transform": "translate(172.39 -7999.4)"
+            }
+          },
+          {
+            "id": 9,
+            "name": "09",
+            "type": "shop",
+            "shape": {
+              "d": "M1037,8261.965h25.546v50.367H1038.2v-1.289H1037v-15.715h2.9V8285.5H1037Z",
+              "transform": "translate(135.86 -7999.4)"
+            }
+          },
+          {
+            "id": 10,
+            "name": "10",
+            "type": "shop",
+            "shape": {
+              "d": "M1099.579,8312.25H1124V8310.8h1.3v-40.542h-5.517v-8.431h-20.209Z",
+              "transform": "translate(99.827 -7999.319)"
+            }
+          },
+          {
+            "id": 11,
+            "name": "11",
+            "type": "shop",
+            "shape": {
+              "d": "M1189.759,8261.965h-25.766v8.458h-.484v40.535h1.209v1.37h49.159s-.322-1.451,0-1.37a6.612,6.612,0,0,0,1.289,0v-23.612h-25.407Z",
+              "transform": "translate(63.018 -7999.4)"
+            }
+          },
+          {
+            "id": 12,
+            "name": "12",
+            "type": "shop",
+            "shape": {
+              "d": "M1252.024,8217.885h-24.5v42.873h15.07v-6.125h9.429V8236.34H1250.9v-3.3h1.128Z",
+              "transform": "translate(26.16 -7974.021)"
+            }
+          },
+          {
+            "id": 13,
+            "name": "13",
+            "type": "shop",
+            "shape": {
+              "d": "M1227.525,8113.786h24.66V8156.5h-24.66Z",
+              "transform": "translate(26.16 -7914.084)"
+            }
+          },
+          {
+            "id": 14,
+            "name": "14",
+            "type": "shop",
+            "shape": {
+              "d": "M1227.525,8008.738h24.66v43.195h-24.66Z",
+              "transform": "translate(26.16 -7853.601)"
+            }
+          },
+          {
+            "id": 15,
+            "name": "15",
+            "type": "shop",
+            "shape": {
+              "d": "M1227.525,7905.779h23.29v1.611h1.289v34.331h-1.289v3.465h1.289v3.3h-24.579Z",
+              "transform": "translate(26.16 -7794.321)"
+            }
+          },
+          {
+            "id": 16,
+            "name": "16",
+            "type": "shop",
+            "shape": {
+              "d": "M1190.557,7781.735h23.29v1.048h1.37v50.448h-24.66v-2.9H1183.3v2.9h-19.986v-24.66h27.239Z",
+              "transform": "translate(63.128 -7722.901)"
+            }
+          },
+          {
+            "id": 17,
+            "name": "17",
+            "type": "shop",
+            "shape": {
+              "d": "M1057.642,7845.837h18.6v-1.488H1101.1v25.106h-31.119v-6.261h-7.5v6.261h-4.835Z",
+              "transform": "translate(123.973 -7758.952)"
+            }
+          },
+          {
+            "id": 18,
+            "name": "18",
+            "type": "shop",
+            "shape": {
+              "d": "M970.058,7788.176h-8.784v-6.447h-16.6v51.576h25.385Z",
+              "transform": "translate(189.016 -7722.897)"
+            }
+          },
+          {
+            "id": 19,
+            "name": "19",
+            "type": "shop",
+            "shape": {
+              "d": "M785.79,7768.013h51.02v5.762h15.505v51.544H785.79Z",
+              "transform": "translate(280.495 -7715)"
+            }
+          },
+          {
+            "id": 20,
+            "name": "20",
+            "type": "shop",
+            "shape": {
+              "d": "M785.79,7905.964h45.645v43.356H785.79Z",
+              "transform": "translate(280.495 -7794.427)"
+            }
+          }
+        ]
       },
       {
         "floor": 2,
@@ -1420,15 +2308,472 @@
           "transform": "translate(-911.35 -10027.656)"
         },
         "svg": {
-          "viewBox": "0 0 500 748.284"
+          "viewBox": "0 0 1060 695"
         },
         "g": {
-          "transform": "translate(-806 -10)"
+          "transform": "translate(-815)"
         },
         "image": {
-          "xlink": "./images/zamall-plans/SECOND-FLOOR.png",
+          "xlink": "./assets/images/floor_plans/02.png",
           "transform": "translate(806 10)"
-        }
+        },
+        "previewg": {
+          "transform": "translate(-826.639 -5.461)"
+        },
+        "units": [
+          {
+            "id": 1,
+            "name": "01",
+            "type": "shop",
+            "unit": null,
+            "plan": "shop-01",
+            "shape": {
+              "d": "M542.556,9887.429v-26.887h21.919v-59.326H499.6v81.537h3.215v4.676Z",
+              "transform": "translate(536 -9385)"
+            },
+            "planInfo": {
+              "area": 14,
+              "rooms": null
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 2,
+            "name": "02",
+            "type": "shop",
+            "unit": null,
+            "plan": "shop-02",
+            "shape": {
+              "d": "M496.366,9804.981v77.884h-3.229v4.369h-202.5v-86.052h64.776v2.659h8.928v-2.659H493.136v3.8Z",
+              "transform": "translate(536 -9385)"
+            },
+            "planInfo": {
+              "area": 40,
+              "rooms": null
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 3,
+            "name": "03",
+            "type": "shop",
+            "unit": null,
+            "plan": "shop-03",
+            "shape": {
+              "d": "M465.022,9891.034v82.252H290.829v-82.252h64.586v15.576h18.236v-15.576Z",
+              "transform": "translate(536 -9385)"
+            },
+            "planInfo": {
+              "area": 32,
+              "rooms": null
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 4,
+            "name": "04",
+            "type": "shop",
+            "unit": null,
+            "plan": "shop-04",
+            "shape": {
+              "d": "M290.829,9976.7h204.8v63.466h-16.3v21.979H364.248v-3.457h-8.89v3.457H290.829Z",
+              "transform": "translate(536 -9385)"
+            },
+            "planInfo": {
+              "area": 40,
+              "rooms": null
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 5,
+            "name": "05",
+            "type": "shop",
+            "unit": null,
+            "plan": "shop-05",
+            "shape": {
+              "d": "M844.562,9930.028h59.515v23.213h8.89V9993h-68.4Z",
+              "transform": "translate(536 -9385)"
+            },
+            "planInfo": {
+              "area": 20,
+              "rooms": null
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 6,
+            "name": "06",
+            "type": "shop",
+            "unit": null,
+            "plan": "shop-06",
+            "shape": {
+              "d": "M922.1,9930.028h59.021v132.117H918.153v-3.457H915.93V9953.241H922.1Z",
+              "transform": "translate(536 -9385)"
+            },
+            "planInfo": {
+              "area": 20,
+              "rooms": null
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 7,
+            "name": "07",
+            "type": "shop",
+            "unit": null,
+            "plan": "shop-07",
+            "shape": {
+              "d": "M1050.27,9930.028H983.594v132.364h66.676v-44.2h-7.408v-24.694h7.408Z",
+              "transform": "translate(536 -9385)"
+            },
+            "planInfo": {
+              "area": 20,
+              "rooms": null
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 8,
+            "name": "08",
+            "type": "shop",
+            "unit": null,
+            "plan": "shop-08",
+            "shape": {
+              "d": "M1052.739,9930.028h66.182v132.356h-66.182v-43.709h7.9v-24.942h-7.9v-63.705",
+              "transform": "translate(536 -9385)"
+            },
+            "planInfo": {
+              "area": 20,
+              "rooms": null
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 9,
+            "name": "09",
+            "type": "shop",
+            "unit": null,
+            "plan": "shop-09",
+            "shape": {
+              "d": "M1122.872,9930.028h51.118v23.7h14.076v108.163h-65.194Z",
+              "transform": "translate(536 -9385)"
+            },
+            "planInfo": {
+              "area": 20,
+              "rooms": null
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 10,
+            "name": "10",
+            "type": "shop",
+            "unit": null,
+            "plan": "shop-10",
+            "shape": {
+              "d": "M1258.94,9930.028h-65.688v24.193h-1.482v108.41h134.093v-64.7H1258.94Z",
+              "transform": "translate(536 -9385)"
+            },
+            "planInfo": {
+              "area": 20,
+              "rooms": null
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 11,
+            "name": "11",
+            "type": "shop",
+            "unit": null,
+            "plan": "shop-11",
+            "shape": {
+              "d": "M1325.863,9884.089h-64.206v110.633h39.018v-15.558h25.189Z",
+              "transform": "translate(536 -9385)"
+            },
+            "planInfo": {
+              "area": 31,
+              "rooms": null
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 12,
+            "name": "12",
+            "type": "shop",
+            "unit": null,
+            "plan": "shop-12",
+            "shape": {
+              "d": "M1261.657,9769.258h64.206v110.88h-64.206Z",
+              "transform": "translate(536 -9385)"
+            },
+            "planInfo": {
+              "area": 16,
+              "rooms": null
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 13,
+            "name": "13",
+            "type": "shop",
+            "unit": null,
+            "plan": "shop-12",
+            "shape": {
+              "d": "M1261.657,9542.807h63.959v108.9h-63.959Z",
+              "transform": "translate(536 -9385)"
+            },
+            "planInfo": {
+              "area": 16,
+              "rooms": null
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 14,
+            "name": "14",
+            "type": "shop",
+            "unit": null,
+            "plan": "shop-14",
+            "shape": {
+              "d": "M1261.657,9406h63.959v133.6h-63.959v-8.149h-18.768v18.274h16.3v19.509H1191.03v-94.581h70.627Z",
+              "transform": "translate(536 -9385)"
+            },
+            "planInfo": {
+              "area": 17,
+              "rooms": null
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 15,
+            "name": "15",
+            "type": "shop",
+            "unit": null,
+            "plan": "shop-15",
+            "shape": {
+              "d": "M1075.211,9478.106h48.649v-3.7h64.7v64.947h-81.246v-16.3h-19.509v16.3h-12.594Z",
+              "transform": "translate(536 -9385)"
+            },
+            "planInfo": {
+              "area": 17,
+              "rooms": null
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 16,
+            "name": "16",
+            "type": "shop",
+            "unit": null,
+            "plan": "shop-16",
+            "shape": {
+              "d": "M951.888,9406.045l43.121-.949v16.526h22.225V9539.4H951.888Z",
+              "transform": "translate(536 -9385)"
+            },
+            "planInfo": {
+              "area": 30,
+              "rooms": null
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 17,
+            "name": "17",
+            "type": "shop",
+            "unit": null,
+            "plan": "shop-17",
+            "shape": {
+              "d": "M949.038,9406.037V9539.2H777.315V9390.461H909.906v15.576Z",
+              "transform": "translate(536 -9385)"
+            },
+            "planInfo": {
+              "area": 17,
+              "rooms": null
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 18,
+            "name": "18",
+            "type": "shop",
+            "unit": null,
+            "plan": "shop-18",
+            "shape": {
+              "d": "M777.315,9543.127h9.118v2.776h9.352v-2.776H895v111.346H777.315Z",
+              "transform": "translate(536 -9385)"
+            },
+            "planInfo": {
+              "area": 21,
+              "rooms": null
+            },
+            "isAvailable": false
+          }
+        ],
+        "unitsPrev": [
+          {
+            "id": 1,
+            "name": "01",
+            "type": "shop",
+            "shape": {
+              "d": "M516.213,9834.563v-10.4h8.478v-22.948H499.6v31.539h1.243v1.809Z",
+              "transform": "translate(407.869 -9636.872)"
+            }
+          },
+          {
+            "id": 2,
+            "name": "02",
+            "type": "shop",
+            "shape": {
+              "d": "M370.215,9802.652v30.126h-1.249v1.689H290.639v-33.285h25.056v1.028h3.453v-1.028h49.818v1.47Z",
+              "transform": "translate(536 -9636.852)"
+            }
+          },
+          {
+            "id": 3,
+            "name": "03",
+            "type": "shop",
+            "shape": {
+              "d": "M358.208,9891.034v31.815H290.829v-31.815h24.982v6.025h7.054v-6.025Z",
+              "transform": "translate(535.884 -9691.948)"
+            }
+          },
+          {
+            "id": 4,
+            "name": "04",
+            "type": "shop",
+            "shape": {
+              "d": "M290.829,9976.7h79.216v24.549h-6.3v8.5H319.228v-1.338h-3.439v1.338h-24.96Z",
+              "transform": "translate(535.884 -9744.479)"
+            }
+          },
+          {
+            "id": 5,
+            "name": "05",
+            "type": "shop",
+            "shape": {
+              "d": "M844.562,9930.028h23.021v8.979h3.439v15.38H844.562Z",
+              "transform": "translate(196.338 -9715.859)"
+            }
+          },
+          {
+            "id": 6,
+            "name": "06",
+            "type": "shop",
+            "shape": {
+              "d": "M918.318,9930.028h22.83v51.1H916.79v-1.337h-.86v-40.788h2.388Z",
+              "transform": "translate(152.575 -9715.859)"
+            }
+          },
+          {
+            "id": 7,
+            "name": "07",
+            "type": "shop",
+            "shape": {
+              "d": "M1009.385,9930.028H983.594v51.2h25.791v-17.1h-2.866v-9.552h2.866Z",
+              "transform": "translate(111.084 -9715.859)"
+            }
+          },
+          {
+            "id": 8,
+            "name": "08",
+            "type": "shop",
+            "shape": {
+              "d": "M1052.739,9930.028h25.6v51.2h-25.6v-16.907h3.057v-9.647h-3.057v-24.642",
+              "transform": "translate(68.685 -9715.859)"
+            }
+          },
+          {
+            "id": 9,
+            "name": "09",
+            "type": "shop",
+            "shape": {
+              "d": "M1122.872,9930.028h19.773v9.167h5.445v41.839h-25.218Z",
+              "transform": "translate(25.68 -9715.859)"
+            }
+          },
+          {
+            "id": 10,
+            "name": "10",
+            "type": "shop",
+            "shape": {
+              "d": "M1217.752,9930.028h-25.409v9.358h-.573v41.934h51.868v-25.026h-25.886Z",
+              "transform": "translate(-16.568 -9715.859)"
+            }
+          },
+          {
+            "id": 11,
+            "name": "11",
+            "type": "shop",
+            "shape": {
+              "d": "M1286.492,9884.089h-24.835v42.794h15.092v-6.018h9.743Z",
+              "transform": "translate(-59.422 -9687.689)"
+            }
+          },
+          {
+            "id": 12,
+            "name": "12",
+            "type": "shop",
+            "shape": {
+              "d": "M1261.657,9769.258h24.835v42.889h-24.835Z",
+              "transform": "translate(-59.422 -9617.275)"
+            }
+          },
+          {
+            "id": 13,
+            "name": "13",
+            "type": "shop",
+            "shape": {
+              "d": "M1261.657,9542.807h24.74v42.125h-24.74Z",
+              "transform": "translate(-59.422 -9478.417)"
+            }
+          },
+          {
+            "id": 14,
+            "name": "14",
+            "type": "shop",
+            "shape": {
+              "d": "M1218.349,9406h24.74v51.677h-24.74v-3.152h-7.26v7.069h6.3v7.546H1191.03v-36.585h27.319Z",
+              "transform": "translate(-16.114 -9394.527)"
+            }
+          },
+          {
+            "id": 15,
+            "name": "15",
+            "type": "shop",
+            "shape": {
+              "d": "M1075.211,9475.835h18.818V9474.4h25.026v25.122h-31.426v-6.3h-7.546v6.3h-4.872Z",
+              "transform": "translate(54.905 -9436.473)"
+            }
+          },
+          {
+            "id": 16,
+            "name": "16",
+            "type": "shop",
+            "shape": {
+              "d": "M951.888,9405.463l16.679-.367v6.393h8.6v45.556H951.888Z",
+              "transform": "translate(130.526 -9393.974)"
+            }
+          },
+          {
+            "id": 17,
+            "name": "17",
+            "type": "shop",
+            "shape": {
+              "d": "M843.738,9396.486v51.508H777.315v-57.533H828.6v6.025Z",
+              "transform": "translate(237.574 -9385)"
+            }
+          },
+          {
+            "id": 18,
+            "name": "18",
+            "type": "shop",
+            "shape": {
+              "d": "M777.315,9543.127h3.527v1.074h3.617v-1.074h38.378V9586.2H777.315Z",
+              "transform": "translate(237.574 -9478.614)"
+            }
+          }
+        ]
       },
       {
         "floor": 3,
@@ -1443,9 +2788,602 @@
           "transform": "translate(-806 -10)"
         },
         "image": {
-          "xlink": "./images/zamall-plans/ThIRD-FLOOR.png",
+          "xlink": "./assets/images/floor_plans/03.png",
           "transform": "translate(806 10)"
-        }
+        },
+        "units": [
+          {
+            "id": 1,
+            "name": "01",
+            "type": "clinic",
+            "unit": 2,
+            "plan": "clinic-unit02",
+            "shape": {
+              "d": "M473.841,8766.067h40.45V8621.925H511.2v-3.517H310.963v122.747H473.841Z",
+              "transform": "translate(536 -8203)"
+            },
+            "planInfo": {
+              "area": 60,
+              "rooms": [
+                {
+                  "name": "room 1",
+                  "y": 5.65,
+                  "x": 3
+                },
+                {
+                  "name": "room 2",
+                  "y": 3.1,
+                  "x": 2.85
+                },
+                {
+                  "name": "room 3",
+                  "y": 3.1,
+                  "x": 2.85
+                },
+                {
+                  "name": "waiting_area",
+                  "y": 2.85,
+                  "x": 2.9
+                },
+                {
+                  "name": "W.C",
+                  "y": 1.55,
+                  "x": 1.45
+                },
+                {
+                  "name": "kitchenette",
+                  "y": 1.55,
+                  "x": 1
+                }
+              ]
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 2,
+            "name": "02",
+            "type": "clinic",
+            "unit": 1,
+            "plan": "clinic-unit01",
+            "shape": {
+              "d": "M310.963,8743.642H470.68v87.913h2.469v-2.717h40.005v25.683h-15.8v21.731H310.963Z",
+              "transform": "translate(536 -8203)"
+            },
+            "planInfo": {
+              "area": 54,
+              "rooms": [
+                {
+                  "name": "room 1",
+                  "y": 5,
+                  "x": 3
+                },
+                {
+                  "name": "room 2",
+                  "y": 5,
+                  "x": 3
+                },
+                {
+                  "name": "waiting area",
+                  "y": 6.1,
+                  "x": 2.3
+                },
+                {
+                  "name": "W.C",
+                  "y": 1.55,
+                  "x": 1.45
+                }
+              ]
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 3,
+            "name": "03",
+            "type": "clinic",
+            "unit": 5,
+            "plan": "clinic-unit05",
+            "shape": {
+              "d": "M928.33,8810.874v65.346h132.212v-43.69h-8.168v-21.655Z",
+              "transform": "translate(536 -8203)"
+            },
+            "planInfo": {
+              "area": 21,
+              "rooms": [
+                {
+                  "name": "room 1",
+                  "y": 4.65,
+                  "x": 3
+                },
+                {
+                  "name": "room 2",
+                  "y": 2,
+                  "x": 1.55
+                },
+                {
+                  "name": "W.C",
+                  "y": 3,
+                  "x": 1.3
+                }
+              ]
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 4,
+            "name": "04",
+            "type": "clinic",
+            "unit": 6,
+            "plan": "clinic-unit06",
+            "shape": {
+              "d": "M1070.989,8810.874v21.458h-7.6v43.88h177.232v-65.338Z",
+              "transform": "translate(536 -8203)"
+            },
+            "planInfo": {
+              "area": 28,
+              "rooms": [
+                {
+                  "name": "room 1",
+                  "y": 5.35,
+                  "x": 3
+                },
+                {
+                  "name": "waiting area",
+                  "y": 3,
+                  "x": 2.65
+                },
+                {
+                  "name": "W.C",
+                  "y": 2.4,
+                  "x": 1.5
+                }
+              ]
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 5,
+            "name": "05",
+            "type": "clinic",
+            "unit": 7,
+            "plan": "clinic-unit07",
+            "shape": {
+              "d": "M1243.662,8778.006h72.754v33.813H1331.8v64.776h-88.141Z",
+              "transform": "translate(536 -8203)"
+            },
+            "planInfo": {
+              "area": 21,
+              "rooms": [
+                {
+                  "name": "room 1",
+                  "y": 4.1,
+                  "x": 3
+                },
+                {
+                  "name": "waiting area",
+                  "y": 1.85,
+                  "x": 1.45
+                },
+                {
+                  "name": "W.C",
+                  "y": 1.45,
+                  "x": 1.4
+                }
+              ]
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 6,
+            "name": "06",
+            "type": "clinic",
+            "unit": 7,
+            "plan": "clinic-unit07",
+            "shape": {
+              "d": "M1243.662,8677.518h88.9v97.829h-88.9Z",
+              "transform": "translate(536 -8203)"
+            },
+            "planInfo": {
+              "area": 21,
+              "rooms": [
+                {
+                  "name": "room 1",
+                  "y": 4.1,
+                  "x": 3
+                },
+                {
+                  "name": "waiting area",
+                  "y": 1.85,
+                  "x": 1.45
+                },
+                {
+                  "name": "W.C",
+                  "y": 1.45,
+                  "x": 1.4
+                }
+              ]
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 7,
+            "name": "07",
+            "type": "clinic",
+            "unit": 4,
+            "plan": "clinic-unit04",
+            "shape": {
+              "d": "M1198.728,8677.518v60.742h-4.471v2.776h-11.105v24.841H1063.186v-88.359Z",
+              "transform": "translate(536 -8203)"
+            },
+            "planInfo": {
+              "area": 28,
+              "rooms": [
+                {
+                  "name": "room 1",
+                  "y": 6.15,
+                  "x": 3
+                },
+                {
+                  "name": "waiting area",
+                  "y": 3.2,
+                  "x": 2.4
+                },
+                {
+                  "name": "W.C",
+                  "y": 2.45,
+                  "x": 1
+                }
+              ]
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 8,
+            "name": "08",
+            "type": "clinic",
+            "unit": 4,
+            "plan": "clinic-unit04",
+            "shape": {
+              "d": "M1060.542,8677.518v88.519H934.788v-24.315h-5.129v-3.229H926.81v-60.975Z",
+              "transform": "translate(536 -8203)"
+            },
+            "planInfo": {
+              "area": 28,
+              "rooms": [
+                {
+                  "name": "room 1",
+                  "y": 6.15,
+                  "x": 3
+                },
+                {
+                  "name": "waiting area",
+                  "y": 3.2,
+                  "x": 2.4
+                },
+                {
+                  "name": "W.C",
+                  "y": 2.45,
+                  "x": 1
+                }
+              ]
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 9,
+            "name": "09",
+            "type": "clinic",
+            "unit": 4,
+            "plan": "clinic-unit04",
+            "shape": {
+              "d": "M923.771,8677.518v61.166h-2.849v3.039h-4.749v24.125H790.229v-88.33Z",
+              "transform": "translate(536 -8203)"
+            },
+            "planInfo": {
+              "area": 28,
+              "rooms": [
+                {
+                  "name": "room 1",
+                  "y": 6.15,
+                  "x": 3
+                },
+                {
+                  "name": "waiting area",
+                  "y": 3.2,
+                  "x": 2.4
+                },
+                {
+                  "name": "W.C",
+                  "y": 2.45,
+                  "x": 1
+                }
+              ]
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 10,
+            "name": "10",
+            "type": "clinic",
+            "unit": 4,
+            "plan": "clinic-unit04",
+            "shape": {
+              "d": "M787.38,8677.518v88.71H661.627v-24.885h-4.749v-2.85h-3.039v-60.976Z",
+              "transform": "translate(536 -8203)"
+            },
+            "planInfo": {
+              "area": 28,
+              "rooms": [
+                {
+                  "name": "room 1",
+                  "y": 6.15,
+                  "x": 3
+                },
+                {
+                  "name": "waiting area",
+                  "y": 3.2,
+                  "x": 2.4
+                },
+                {
+                  "name": "W.C",
+                  "y": 2.45,
+                  "x": 1
+                }
+              ]
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 11,
+            "name": "11",
+            "type": "clinic",
+            "unit": 3,
+            "plan": "clinic-unit03",
+            "shape": {
+              "d": "M650.229,8677.518v60.593H647.38v3.419h-3.989v24.7H516.5V8621.476h3.039v-3.419h61.927v59.461Z",
+              "transform": "translate(536 -8203)"
+            },
+            "planInfo": {
+              "area": 37,
+              "rooms": [
+                {
+                  "name": "room 1",
+                  "y": 3.75,
+                  "x": 3
+                },
+                {
+                  "name": "room 2",
+                  "y": 3.75,
+                  "x": 3
+                },
+                {
+                  "name": "waiting area",
+                  "y": 3,
+                  "x": 3
+                },
+                {
+                  "name": "W.C",
+                  "y": 2.7,
+                  "x": 1
+                }
+              ]
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 12,
+            "name": "01",
+            "type": "resid",
+            "unit": 2,
+            "plan": "resid-unit02",
+            "shape": {
+              "d": "M980.747,8309.225v38.2H923.6v9.975h-2.494v3.21H908.762v24.2H923.6v72.355H806.773V8309.225Z",
+              "transform": "translate(536 -8203)"
+            },
+            "planInfo": {
+              "area": 85,
+              "rooms": [
+                {
+                  "name": "room 1",
+                  "y": 5.4,
+                  "x": 3.35
+                },
+                {
+                  "name": "reception",
+                  "y": 5.5,
+                  "x": 3.4
+                },
+                {
+                  "name": "kitchen",
+                  "y": 2.45,
+                  "x": 1.8
+                },
+                {
+                  "name": "W.C",
+                  "y": 2.6,
+                  "x": 2.05
+                }
+              ]
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 13,
+            "name": "02",
+            "type": "resid",
+            "unit": 4,
+            "plan": "resid-unit04",
+            "shape": {
+              "d": "M926.789,8350.733h88.654v106.681H926.789Z",
+              "transform": "translate(536 -8203)"
+            },
+            "planInfo": {
+              "area": 40,
+              "rooms": [
+                {
+                  "name": "room 1",
+                  "y": 4.9,
+                  "x": 4.05
+                },
+                {
+                  "name": "W.C",
+                  "y": 2.1,
+                  "x": 1.9
+                }
+              ]
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 14,
+            "name": "03",
+            "type": "resid",
+            "unit": 4,
+            "plan": "resid-unit04",
+            "shape": {
+              "d": "M1017.418,8350.733h80.751v21.979h7.655v84.455h-88.407Z",
+              "transform": "translate(536 -8203)"
+            },
+            "planInfo": {
+              "area": 40,
+              "rooms": [
+                {
+                  "name": "room 1",
+                  "y": 4.9,
+                  "x": 4.05
+                },
+                {
+                  "name": "W.C",
+                  "y": 2.1,
+                  "x": 1.9
+                }
+              ]
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 15,
+            "name": "04",
+            "type": "resid",
+            "unit": 4,
+            "plan": "resid-unit04",
+            "shape": {
+              "d": "M1116.444,8350.733v21.979h-7.161v84.7h89.148V8350.733Z",
+              "transform": "translate(536 -8203)"
+            },
+            "planInfo": {
+              "area": 44,
+              "rooms": [
+                {
+                  "name": "room 1",
+                  "y": 4.9,
+                  "x": 4.05
+                },
+                {
+                  "name": "W.C",
+                  "y": 2.1,
+                  "x": 1.9
+                }
+              ]
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 16,
+            "name": "05",
+            "type": "resid",
+            "unit": 1,
+            "plan": "resid-unit01",
+            "shape": {
+              "d": "M1270.043,8363.814v6.668h-26.917v86.925h89.641v-93.593Z",
+              "transform": "translate(536 -8203)"
+            },
+            "planInfo": {
+              "area": 40,
+              "rooms": [
+                {
+                  "name": "room 1",
+                  "y": 3.1,
+                  "x": 2.9
+                },
+                {
+                  "name": "reception",
+                  "y": 4.1,
+                  "x": 3
+                },
+                {
+                  "name": "W.C",
+                  "x": 2.1,
+                  "y": 1.7
+                }
+              ]
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 17,
+            "name": "06",
+            "type": "resid",
+            "unit": 1,
+            "plan": "resid-unit01",
+            "shape": {
+              "d": "M1243.126,8295.657h26.485V8227.5h62.416v133.352h-62.477v-7.9h-26.423Z",
+              "transform": "translate(536 -8203)"
+            },
+            "planInfo": {
+              "area": 45,
+              "rooms": [
+                {
+                  "name": "room 1",
+                  "y": 3.1,
+                  "x": 2.9
+                },
+                {
+                  "name": "reception",
+                  "y": 4.1,
+                  "x": 3
+                },
+                {
+                  "name": "W.C",
+                  "y": 2.1,
+                  "x": 1.7
+                }
+              ]
+            },
+            "isAvailable": false
+          },
+          {
+            "id": 18,
+            "name": "08",
+            "type": "resid",
+            "unit": 3,
+            "plan": "resid-unit03",
+            "shape": {
+              "d": "M806.773,8227.5v79.213h220.715V8243.25H1006.78v-15.767Z",
+              "transform": "translate(536 -8203)"
+            },
+            "planInfo": {
+              "area": 75,
+              "rooms": [
+                {
+                  "name": "room 1",
+                  "y": 4.6,
+                  "x": 3.6
+                },
+                {
+                  "name": "reception & kitchen",
+                  "y": 5.45,
+                  "x": 3.6
+                },
+                {
+                  "name": "W.C",
+                  "y": 2.3,
+                  "x": 2.05
+                }
+              ]
+            },
+            "isAvailable": false
+          }
+        ]
       },
       {
         "floor": 4,
@@ -1463,7 +3401,7 @@
           "transform": "translate(-802.252 -13.882)"
         },
         "image": {
-          "xlink": "./images/zamall-plans/FOURTH-FLOOR.png",
+          "xlink": "./assets/images/floor_plans/04.png",
           "transform": "translate(791 10)"
         }
       },
@@ -1483,7 +3421,7 @@
           "transform": "translate(-802.252 -13.882)"
         },
         "image": {
-          "xlink": "./images/zamall-plans/FIFTH-FLOOR.png",
+          "xlink": "./assets/images/floor_plans/05.png",
           "transform": "translate(791 10)"
         }
       },
@@ -1503,7 +3441,7 @@
           "transform": "translate(-802.252 -13.882)"
         },
         "image": {
-          "xlink": "./images/zamall-plans/FIFTH-FLOOR.png",
+          "xlink": "./assets/images/floor_plans/04.png",
           "transform": "translate(791 10)"
         }
       },
@@ -1523,7 +3461,7 @@
           "transform": "translate(-802.252 -13.882)"
         },
         "image": {
-          "xlink": "./images/zamall-plans/FIFTH-FLOOR.png",
+          "xlink": "./assets/images/floor_plans/04.png",
           "transform": "translate(791 10)"
         }
       },
@@ -1543,7 +3481,7 @@
           "transform": "translate(-802.252 -13.882)"
         },
         "image": {
-          "xlink": "./images/zamall-plans/FIFTH-FLOOR.png",
+          "xlink": "./assets/images/floor_plans/04.png",
           "transform": "translate(791 10)"
         }
       },
@@ -1563,7 +3501,7 @@
           "transform": "translate(-802.252 -13.882)"
         },
         "image": {
-          "xlink": "./images/zamall-plans/FIFTH-FLOOR.png",
+          "xlink": "./assets/images/floor_plans/04.png",
           "transform": "translate(791 10)"
         }
       },
@@ -1583,7 +3521,7 @@
           "transform": "translate(-802.252 -13.882)"
         },
         "image": {
-          "xlink": "./images/zamall-plans/FIFTH-FLOOR.png",
+          "xlink": "./assets/images/floor_plans/10.png",
           "transform": "translate(791 10)"
         }
       }
