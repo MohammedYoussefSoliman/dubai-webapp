@@ -13,7 +13,9 @@
     },
     "image": {
       "transform": "translate(-23 -256.77)",
-      "xlink": "./assets/images/building-background.jpg"
+      "xlink": "./assets/images/building-background.jpg",
+      "width": 1126,
+      "height": 1407
     },
     "typicalUnits": [
       {
@@ -2610,7 +2612,7 @@
             "isAvailable": false
           }
         ],
-        "unitsPrev": [
+        "unitsPreview": [
           {
             "id": 1,
             "name": "01",
@@ -2790,6 +2792,9 @@
         "image": {
           "xlink": "./assets/images/floor_plans/03.png",
           "transform": "translate(806 10)"
+        },
+        "previewg": {
+          "transform": "translate(-846.963 -24.483)"
         },
         "units": [
           {
@@ -3382,6 +3387,170 @@
               ]
             },
             "isAvailable": false
+          }
+        ],
+        "unitsPreview": [
+          {
+            "id": 1,
+            "name": "01",
+            "type": "shop",
+            "shape": {
+              "d": "M376.2,8677.553h16.2v-57.736h-1.237v-1.408H310.963v49.166H376.2Z",
+              "transform": "translate(536 -8437.341)"
+            }
+          },
+          {
+            "id": 2,
+            "name": "02",
+            "type": "shop",
+            "shape": {
+              "d": "M310.963,8743.642h63.974v35.214h.989v-1.088h16.024v10.287H385.62v8.7H310.963Z",
+              "transform": "translate(536 -8512.412)"
+            }
+          },
+          {
+            "id": 3,
+            "name": "03",
+            "type": "shop",
+            "shape": {
+              "d": "M928.33,8810.874v26.174h52.957v-17.5h-3.272v-8.674Z",
+              "transform": "translate(165.918 -8552.715)"
+            }
+          },
+          {
+            "id": 4,
+            "name": "04",
+            "type": "shop",
+            "shape": {
+              "d": "M1066.434,8810.874v8.595h-3.044v17.576h70.99v-26.171Z",
+              "transform": "translate(84.956 -8552.715)"
+            }
+          },
+          {
+            "id": 5,
+            "name": "05",
+            "type": "shop",
+            "shape": {
+              "d": "M1243.662,8778.006H1272.8v13.544h6.163V8817.5h-35.3Z",
+              "transform": "translate(-23.108 -8533.012)"
+            }
+          },
+          {
+            "id": 6,
+            "name": "06",
+            "type": "shop",
+            "shape": {
+              "d": "M1243.662,8677.518h35.609V8716.7h-35.609Z",
+              "transform": "translate(-23.108 -8472.774)"
+            }
+          },
+          {
+            "id": 7,
+            "name": "07",
+            "type": "shop",
+            "shape": {
+              "d": "M1117.477,8677.518v24.33h-1.791v1.111h-4.448v9.95h-48.052v-35.392Z",
+              "transform": "translate(85.078 -8472.774)"
+            }
+          },
+          {
+            "id": 8,
+            "name": "08",
+            "type": "shop",
+            "shape": {
+              "d": "M980.376,8677.518v35.455h-50.37v-9.739h-2.054v-1.293H926.81v-24.423Z",
+              "transform": "translate(166.829 -8472.774)"
+            }
+          },
+          {
+            "id": 9,
+            "name": "09",
+            "type": "shop",
+            "shape": {
+              "d": "M843.719,8677.518v24.5h-1.141v1.217h-1.9v9.663H790.229v-35.38Z",
+              "transform": "translate(248.703 -8472.774)"
+            }
+          },
+          {
+            "id": 10,
+            "name": "10",
+            "type": "shop",
+            "shape": {
+              "d": "M707.328,8677.518v35.532h-50.37v-9.968h-1.9v-1.141h-1.217v-24.424Z",
+              "transform": "translate(330.462 -8472.774)"
+            }
+          },
+          {
+            "id": 11,
+            "name": "11",
+            "type": "shop",
+            "shape": {
+              "d": "M570.064,8641.874v24.271h-1.141v1.369h-1.6v9.892H516.5v-57.979h1.217v-1.369h24.8v23.817Z",
+              "transform": "translate(412.791 -8437.13)"
+            }
+          },
+          {
+            "id": 12,
+            "name": "12",
+            "type": "shop",
+            "shape": {
+              "d": "M876.458,8309.225v15.3H853.57v4h-1v1.286h-4.946v9.693h5.945v28.981h-46.8v-59.258Z",
+              "transform": "translate(238.785 -8252)"
+            }
+          },
+          {
+            "id": 13,
+            "name": "13",
+            "type": "shop",
+            "shape": {
+              "d": "M926.789,8350.733H962.3v42.731h-35.51Z",
+              "transform": "translate(166.842 -8276.883)"
+            }
+          },
+          {
+            "id": 14,
+            "name": "14",
+            "type": "shop",
+            "shape": {
+              "d": "M1017.418,8350.733h32.345v8.8h3.066v33.828h-35.411Z",
+              "transform": "translate(112.514 -8276.883)"
+            }
+          },
+          {
+            "id": 15,
+            "name": "15",
+            "type": "shop",
+            "shape": {
+              "d": "M1112.151,8350.733v8.8h-2.869v33.928h35.708v-42.731Z",
+              "transform": "translate(57.445 -8276.883)"
+            }
+          },
+          {
+            "id": 16,
+            "name": "16",
+            "type": "shop",
+            "shape": {
+              "d": "M1253.908,8363.814v2.671h-10.781V8401.3h35.906v-37.488Z",
+              "transform": "translate(-22.787 -8284.724)"
+            }
+          },
+          {
+            "id": 17,
+            "name": "17",
+            "type": "shop",
+            "shape": {
+              "d": "M1243.126,8254.8h10.609v-27.3h25v53.414H1253.71v-3.166h-10.584Z",
+              "transform": "translate(-22.787 -8203.01)"
+            }
+          },
+          {
+            "id": 18,
+            "name": "18",
+            "type": "shop",
+            "shape": {
+              "d": "M806.773,8227.49v31.729H895.18V8233.8h-8.295v-6.315Z",
+              "transform": "translate(238.785 -8203)"
+            }
           }
         ]
       },

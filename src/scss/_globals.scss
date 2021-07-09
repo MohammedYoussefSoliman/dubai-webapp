@@ -1,0 +1,107 @@
+// fonts
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap");
+
+$roboto: "Roboto", sans-serif;
+$lato: "Lato", sans-serif;
+$barlow: "Barlow", sans-serif;
+
+$blue: #272459;
+$orange: #f05123;
+$blumine: #14687b;
+$orange-bg: #ff7726;
+$light-grey: #dfdfdf;
+$red: #e91313;
+$primary-color: #232323;
+$white: #ffffff;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow: hidden;
+}
+
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: $primary-color;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+body {
+  width: 100%;
+  font-family: $barlow;
+  white-space: normal;
+}
+
+h1 {
+  color: $white;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(202, 202, 202);
+  border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+// utility classes
+
+.path {
+  fill: $orange;
+  opacity: 0;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.65;
+  }
+  &.active {
+    opacity: 0.65;
+  }
+}
