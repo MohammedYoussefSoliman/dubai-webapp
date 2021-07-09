@@ -12,7 +12,7 @@ $barlow: "Barlow", sans-serif;
 $blue: #272459;
 $orange: #f05123;
 $blumine: #14687b;
-$orange-bg: #ff7726;
+$secondary-color: #f49231;
 $light-grey: #dfdfdf;
 $red: #e91313;
 $primary-color: #232323;
@@ -59,6 +59,7 @@ a {
   color: $primary-color;
   &:hover {
     text-decoration: none;
+    color: inherit;
   }
 }
 

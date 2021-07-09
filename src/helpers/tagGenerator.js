@@ -19,7 +19,6 @@ export default function tagGenerator(tag) {
     } else {
       element.innerHTML = content;
     }
-    console.log(element);
     return element;
   };
 }

@@ -1,31 +1,56 @@
 import scss from "./styles.module.scss";
-
+import { imageTagGenerator, tagGenerator } from "./helpers";
 export default class Building {
-  constructor(buildingData, background, wrapper) {
+  constructor(
+    buildingData,
+    background,
+    counterWrapper,
+    anchorsWrapper,
+    wrapper
+  ) {
     this.buildingData = buildingData;
     this.background = background;
     this.wrapper = wrapper;
+    this.counterWrapper = counterWrapper;
+    this.anchorsWrapper = anchorsWrapper;
   }
   anchors = [];
   paths = [];
 
+  set anchorClass(className) {
+    this.anchorClass = className;
+  }
+
   generatFloorAnchors(pathname, anchorArray) {
-    let floorOrder = document.createElement("a");
-    floorOrder.classList.add("anchor");
-    floorOrder.setAttribute("data-name", `${pathname}`);
-    if (pathname === "0") {
-      floorOrder.innerText = `G`;
-    } else if (pathname.length < 2) {
-      floorOrder.innerText = `0${pathname}`;
+    const anchorWrapper = document.createElement("div");
+    const anchor = document.createElement("a");
+    if (this.anchorClass) {
+      anchorWrapper.classList.add(this.anchorClass);
     } else {
-      floorOrder.innerText = `${pathname}`;
+      anchorWrapper.classList.add(scss["anchor"]);
     }
-    // floorOrdersWrapper.appendChild(floorOrder);
-    anchorArray.push(floorOrder);
+    anchorWrapper.setAttribute("data-name", `${pathname}`);
+    if (pathname === "0") {
+      anchor.innerText = `G`;
+    } else if (pathname.length < 2) {
+      anchor.innerText = `0${pathname}`;
+    } else {
+      anchor.innerText = `${pathname}`;
+    }
+    anchorWrapper.appendChild(anchor);
+    this.anchorsWrapper.appendChild(anchorWrapper);
+    anchorArray.push(anchorWrapper);
   }
 
   render() {
-    const { buildingData, background, wrapper, anchors, paths } = this;
+    const {
+      buildingData,
+      background,
+      wrapper,
+      anchors,
+      paths,
+      counterWrapper,
+    } = this;
     const xmlns = "http://www.w3.org/2000/svg";
     const xlink = "http://www.w3.org/1999/xlink";
     const svg = document.createElementNS(xmlns, "svg");
@@ -58,38 +83,38 @@ export default class Building {
       this.generatFloorAnchors(`${floor.floor}`, anchors);
     });
     // generate dynamic counter
+    counterWrapper.innerHTML = `<h2>- -</h2>`;
+
+    // generate path effects
     paths.forEach((path, index) => {
       path.addEventListener("mouseenter", () => {
-        let count;
-        switch (index) {
-          case 0:
-            count = `G`;
-            break;
-          case 1:
-            count = `${index}<sup>st</sup>`;
-            break;
-          case 2:
-            count = `${index}<sup>nd</sup>`;
-            break;
-          case 3:
-            count = `${index}<sup>rd</sup>`;
-            break;
-          default:
-            count = `${index < 10 ? "0" : ""}${index}`;
+        // update counter:
+        if (index === 0) {
+          counterWrapper.innerHTML = `<h2>G</h2>`;
+        } else {
+          counterWrapper.innerHTML = `<h2>${
+            index < 10 ? "0" : ""
+          }${index}</h2>`;
         }
+        // update floor anchors:
         anchors.forEach((anchor) => {
           if (path.dataset.name === anchor.dataset.name) {
-            anchor.classList.add("active");
+            anchor.classList.add(scss["active"]);
           } else {
-            anchor.classList.remove("active");
+            anchor.classList.remove(scss["active"]);
           }
         });
-        return count;
+      });
+      path.addEventListener("mouseleave", () => {
+        path.classList.remove(scss["active"]);
+        anchors.forEach((anchor) => {
+          anchor.classList.remove(scss["active"]);
+        });
+        counterWrapper.innerHTML = `<h2>- -</h2>`;
       });
     });
     svg.appendChild(g);
     wrapper.insertAdjacentElement("afterbegin", svg);
-    // wrapper.appendChild(svg);
     paths.forEach((floor) => {
       floor.addEventListener("click", () => {
         window.location.href = `floor.html?project=${buildingData.project}&floor=${floor.dataset.name}`;
@@ -100,9 +125,32 @@ export default class Building {
         window.location.href = `floor.html?project=${buildingData.project}&floor=${floor.dataset.name}`;
       });
     });
-  }
-  renderNavigation() {
-    console.log(this.anchors);
-    return this.anchors;
+    // handle anchors effects
+    anchors.forEach((anchor, index) => {
+      anchor.addEventListener("mouseenter", () => {
+        anchor.classList.add(scss["active"]);
+        if (index === 0) {
+          counterWrapper.innerHTML = `<h2>G</h2>`;
+        } else {
+          counterWrapper.innerHTML = `<h2>${
+            index < 10 ? "0" : ""
+          }${index}</h2>`;
+        }
+        paths.forEach((floor) => {
+          if (anchor.dataset.name === floor.dataset.name) {
+            floor.classList.add(scss["active"]);
+          } else {
+            floor.classList.remove(scss["active"]);
+          }
+        });
+      });
+      anchor.addEventListener("mouseleave", () => {
+        anchor.classList.remove(scss["active"]);
+        paths.forEach((floor) => {
+          floor.classList.remove(scss["active"]);
+        });
+        counterWrapper.innerHTML = `<h2>- -</h2>`;
+      });
+    });
   }
 }

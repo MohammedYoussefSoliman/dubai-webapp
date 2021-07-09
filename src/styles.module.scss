@@ -20,6 +20,39 @@
   color: #ffffff;
 }
 
+.counter {
+  @include center-content-x;
+  h2 {
+    font-family: $barlow;
+    font-size: 12rem;
+    font-weight: 700;
+    color: $secondary-color;
+    line-height: 0.9;
+  }
+}
+
+.anchor {
+  @include center-content-x;
+  width: 100px;
+  height: 100px;
+  border: 1px solid $secondary-color;
+  border-radius: 50%;
+  cursor: pointer;
+  a {
+    font-family: $barlow;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #ffffff;
+  }
+  &.active {
+    border: 6px solid #775430;
+    background-color: #ffffff;
+    a {
+      color: $secondary-color;
+    }
+  }
+}
+
 .building {
   width: 100vw;
   height: 100vh;
@@ -57,6 +90,19 @@
       align-items: center;
       img {
         max-width: 200px;
+      }
+    }
+    &__anchors {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 2rem;
+      z-index: 30;
+    }
+    &__footer {
+      display: flex;
+      justify-content: space-between;
+      img {
+        max-width: 150px;
       }
     }
   }
