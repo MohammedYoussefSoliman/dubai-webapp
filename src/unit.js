@@ -1,10 +1,5 @@
-export default class Unit {
-  constructor(id, name) {
-    this.id = id;
-    this.name = name;
-  }
+import Unit from "./models/unit";
 
-  render() {
-    console.log(this.id, this.name);
-  }
-}
+const unit = new Unit(2, "admin");
+
+unit.render();

@@ -1,13 +1,19 @@
 const path = require("path");
 const TerserPlugin = require("terser-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const { Chunk } = require("webpack");
 
 module.exports = {
-  entry: "./src/index.js",
+  entry: {
+    building: "./src/index.js",
+    floor: "./src/floor.js",
+    // unit: "./src/unit.js",
+  },
   output: {
-    filename: "bundle.js",
+    filename: "[name].js",
     path: path.resolve(__dirname, "./dist"),
-    publicPath: "dist/",
+    // publicPath: "dist/",
   },
   mode: "none",
   module: {
@@ -63,7 +69,17 @@ module.exports = {
   plugins: [
     new TerserPlugin(),
     new MiniCssExtractPlugin({
-      filename: "styles.css",
+      filename: "css/styles.css",
+    }),
+    new HtmlWebpackPlugin({
+      filename: "index.html",
+      template: "./src/index.html",
+      chunks: ["building"],
+    }),
+    new HtmlWebpackPlugin({
+      filename: "floor.html",
+      template: "./src/floor.html",
+      chunks: ["floor"],
     }),
   ],
 };

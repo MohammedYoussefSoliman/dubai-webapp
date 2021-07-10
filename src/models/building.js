@@ -1,5 +1,4 @@
-import scss from "./styles.module.scss";
-import { imageTagGenerator, tagGenerator } from "./helpers";
+import scss from "../styles.module.scss";
 export default class Building {
   constructor(
     buildingData,

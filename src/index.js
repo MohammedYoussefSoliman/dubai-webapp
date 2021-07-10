@@ -1,11 +1,9 @@
-import Unit from "./unit";
 import data from "../data/data.json";
 import scss from "./styles.module.scss";
-import "./styles.module.scss";
 import logo from "./assets/svgs/logo.svg";
 import ronzaLogo from "./assets/svgs/ronza_logo.svg";
 import ronzaBuilding from "./assets/images/building-background.jpg";
-import Building from "./building";
+import Building from "./models/building";
 import { imageTagGenerator, tagGenerator } from "./helpers";
 
 const app = document.getElementById("app");
