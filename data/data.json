@@ -58,7 +58,7 @@
             }
           ]
         },
-        "isAvailable": false
+        "isAvailable": true
       },
       {
         "id": 2,
@@ -95,7 +95,7 @@
             }
           ]
         },
-        "isAvailable": false
+        "isAvailable": true
       },
       {
         "id": 3,
@@ -127,7 +127,7 @@
             }
           ]
         },
-        "isAvailable": false
+        "isAvailable": true
       },
       {
         "id": 4,
@@ -159,7 +159,7 @@
             }
           ]
         },
-        "isAvailable": false
+        "isAvailable": true
       },
       {
         "id": 5,
@@ -191,7 +191,7 @@
             }
           ]
         },
-        "isAvailable": false
+        "isAvailable": true
       },
       {
         "id": 6,
@@ -223,7 +223,7 @@
             }
           ]
         },
-        "isAvailable": false
+        "isAvailable": true
       },
       {
         "id": 7,
@@ -255,7 +255,7 @@
             }
           ]
         },
-        "isAvailable": false
+        "isAvailable": true
       },
       {
         "id": 8,
@@ -287,7 +287,7 @@
             }
           ]
         },
-        "isAvailable": false
+        "isAvailable": true
       },
       {
         "id": 9,
@@ -319,7 +319,7 @@
             }
           ]
         },
-        "isAvailable": false
+        "isAvailable": true
       },
       {
         "id": 10,
@@ -351,7 +351,7 @@
             }
           ]
         },
-        "isAvailable": false
+        "isAvailable": true
       },
       {
         "id": 11,
@@ -383,7 +383,7 @@
             }
           ]
         },
-        "isAvailable": false
+        "isAvailable": true
       },
       {
         "id": 12,
@@ -420,7 +420,7 @@
             }
           ]
         },
-        "isAvailable": false
+        "isAvailable": true
       },
       {
         "id": 13,
@@ -447,7 +447,7 @@
             }
           ]
         },
-        "isAvailable": false
+        "isAvailable": true
       },
       {
         "id": 14,
@@ -474,7 +474,7 @@
             }
           ]
         },
-        "isAvailable": false
+        "isAvailable": true
       },
       {
         "id": 15,
@@ -501,7 +501,7 @@
             }
           ]
         },
-        "isAvailable": false
+        "isAvailable": true
       },
       {
         "id": 16,
@@ -533,7 +533,7 @@
             }
           ]
         },
-        "isAvailable": false
+        "isAvailable": true
       },
       {
         "id": 17,
@@ -565,7 +565,7 @@
             }
           ]
         },
-        "isAvailable": false
+        "isAvailable": true
       },
       {
         "id": 18,
@@ -597,7 +597,7 @@
             }
           ]
         },
-        "isAvailable": false
+        "isAvailable": true
       }
     ],
     "unitsPrev": [
@@ -803,7 +803,7 @@
                 "d": "M1142.864,381.938H1189.6V306.794h-46.737Z"
               }
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 2,
@@ -823,7 +823,7 @@
                 "d": "M1142.864,306.794V381.93H1002.953v60.6h-80.8V306.794Z"
               }
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 3,
@@ -843,7 +843,7 @@
                 "d": "M922.154,442.529h80.8v57.963h-80.8Z"
               }
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 4,
@@ -863,7 +863,7 @@
                 "d": "M1002.953,500.492h-80.8V626.943h193.515V560.688H1002.953Z"
               }
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 5,
@@ -883,7 +883,7 @@
                 "d": "M1318.785,560.752h49.567v56.56h-49.567Z"
               }
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 6,
@@ -903,7 +903,7 @@
                 "d": "M1368.352,617.312h45.061V560.6h-45.061Z"
               }
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 7,
@@ -923,7 +923,7 @@
                 "d": "M1413.414,560.752h45.372v56.4h-45.372Z"
               }
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 8,
@@ -943,7 +943,7 @@
                 "d": "M1458.785,560.752h39.778v56.56h-39.778Z"
               }
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 9,
@@ -963,7 +963,7 @@
                 "d": "M1498.564,617.312h51.587v-56.87h-51.587Z"
               }
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 10,
@@ -983,7 +983,7 @@
                 "d": "M1610.766,560.441v56.593h135.541V497.653H1686.92v62.788Z"
               }
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 11,
@@ -1003,7 +1003,7 @@
                 "d": "M1638.642,378.878h107.463V497.451h-58.782V421.3h-48.682Z"
               }
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 12,
@@ -1023,7 +1023,7 @@
                 "d": "M1638.642,421.3h-47.066V378.475h47.066Z"
               }
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 13,
@@ -1043,7 +1043,7 @@
                 "d": "M1591.576,421.3h-43.026V378.475h43.026Z"
               }
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 14,
@@ -1063,7 +1063,7 @@
                 "d": "M1548.551,421.3h-45.046V378.475h45.046Z"
               }
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 15,
@@ -1083,7 +1083,7 @@
                 "d": "M1458.257,421.3H1503.3V378.676h-45.046Z"
               }
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 16,
@@ -1103,7 +1103,7 @@
                 "d": "M1413.414,421.3h45.248v-42.42h-45.248Z"
               }
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 17,
@@ -1123,7 +1123,7 @@
                 "d": "M1369.049,421.3V362.719l43.96,20.2V421.3Z"
               }
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 18,
@@ -1143,7 +1143,7 @@
                 "d": "M1321.97,421.3V341.5l46.8,21.21V421.3Z"
               }
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 19,
@@ -1163,7 +1163,7 @@
                 "d": "M1278.919,421.3h42.787V342.111l-42.787-19.8Z"
               }
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 20,
@@ -1183,7 +1183,7 @@
                 "d": "M1230,306.794h14.948l33.734,15.514v99.182H1230Z"
               }
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 21,
@@ -1203,7 +1203,7 @@
                 "d": "M1278.68,205.637h51.735v78.728h82.954v51.548h-15.362l-87.734-38.575s-7-1.963-11.265-6.486-5.8-11.607-5.8-11.607Z"
               }
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 22,
@@ -1223,7 +1223,7 @@
                 "d": "M1413.414,284.107v52.116h44.639V284.107Z"
               }
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 23,
@@ -1243,7 +1243,7 @@
                 "d": "M1458.257,284.107H1503.5v52.52h-45.245Z"
               }
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 24,
@@ -1263,7 +1263,7 @@
                 "d": "M1503.3,284.107h45.245v52.52H1503.3Z"
               }
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 25,
@@ -1283,7 +1283,7 @@
                 "d": "M1548.548,284.107h90.05v52.315h-90.05Z"
               }
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 26,
@@ -1303,7 +1303,7 @@
                 "d": "M1638.841,284.107H1685.8V230.834h60.91V336.5H1638.841Z"
               }
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 27,
@@ -1323,7 +1323,7 @@
                 "d": "M1638.841,284.107H1685.8V230.834h60.91V336.5H1638.841Z"
               }
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 28,
@@ -1343,7 +1343,7 @@
                 "d": "M1686.128,178.863h60.66V58.856H1545.9v65.649h140.227Z"
               }
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 29,
@@ -1363,7 +1363,7 @@
                 "d": "M1413.37,124.528V58.677h104.272v65.852Z"
               }
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 30,
@@ -1383,7 +1383,7 @@
                 "d": "M1329.784,199.611h-51.469l-26.26-141.277h161.5v65.649h-83.769Z"
               }
             },
-            "isAvailable": false
+            "isAvailable": true
           }
         ],
         "unitsPreview": [
@@ -1813,7 +1813,7 @@
               "area": 14,
               "rooms": null
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 2,
@@ -1829,7 +1829,7 @@
               "area": 40,
               "rooms": null
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 3,
@@ -1845,7 +1845,7 @@
               "area": 32,
               "rooms": null
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 4,
@@ -1861,7 +1861,7 @@
               "area": 40,
               "rooms": null
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 5,
@@ -1877,7 +1877,7 @@
               "area": 20,
               "rooms": null
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 6,
@@ -1893,7 +1893,7 @@
               "area": 20,
               "rooms": null
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 7,
@@ -1909,7 +1909,7 @@
               "area": 20,
               "rooms": null
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 8,
@@ -1925,7 +1925,7 @@
               "area": 20,
               "rooms": null
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 9,
@@ -1941,7 +1941,7 @@
               "area": 20,
               "rooms": null
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 10,
@@ -1957,7 +1957,7 @@
               "area": 20,
               "rooms": null
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 11,
@@ -1973,7 +1973,7 @@
               "area": 31,
               "rooms": null
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 12,
@@ -1989,7 +1989,7 @@
               "area": 16,
               "rooms": null
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 13,
@@ -2005,7 +2005,7 @@
               "area": 16,
               "rooms": null
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 14,
@@ -2021,7 +2021,7 @@
               "area": 17,
               "rooms": null
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 15,
@@ -2037,7 +2037,7 @@
               "area": 17,
               "rooms": null
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 16,
@@ -2053,7 +2053,7 @@
               "area": 30,
               "rooms": null
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 17,
@@ -2069,7 +2069,7 @@
               "area": 17,
               "rooms": null
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 18,
@@ -2085,7 +2085,7 @@
               "area": 21,
               "rooms": null
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 19,
@@ -2101,7 +2101,7 @@
               "area": 56,
               "rooms": null
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 20,
@@ -2117,7 +2117,7 @@
               "area": 32,
               "rooms": null
             },
-            "isAvailable": false
+            "isAvailable": true
           }
         ],
         "unitsPrev": [
@@ -2337,7 +2337,7 @@
               "area": 14,
               "rooms": null
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 2,
@@ -2353,7 +2353,7 @@
               "area": 40,
               "rooms": null
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 3,
@@ -2369,7 +2369,7 @@
               "area": 32,
               "rooms": null
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 4,
@@ -2385,7 +2385,7 @@
               "area": 40,
               "rooms": null
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 5,
@@ -2401,7 +2401,7 @@
               "area": 20,
               "rooms": null
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 6,
@@ -2417,7 +2417,7 @@
               "area": 20,
               "rooms": null
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 7,
@@ -2433,7 +2433,7 @@
               "area": 20,
               "rooms": null
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 8,
@@ -2449,7 +2449,7 @@
               "area": 20,
               "rooms": null
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 9,
@@ -2465,7 +2465,7 @@
               "area": 20,
               "rooms": null
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 10,
@@ -2481,7 +2481,7 @@
               "area": 20,
               "rooms": null
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 11,
@@ -2497,7 +2497,7 @@
               "area": 31,
               "rooms": null
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 12,
@@ -2513,7 +2513,7 @@
               "area": 16,
               "rooms": null
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 13,
@@ -2529,7 +2529,7 @@
               "area": 16,
               "rooms": null
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 14,
@@ -2545,7 +2545,7 @@
               "area": 17,
               "rooms": null
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 15,
@@ -2561,7 +2561,7 @@
               "area": 17,
               "rooms": null
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 16,
@@ -2577,7 +2577,7 @@
               "area": 30,
               "rooms": null
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 17,
@@ -2593,7 +2593,7 @@
               "area": 17,
               "rooms": null
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 18,
@@ -2609,7 +2609,7 @@
               "area": 21,
               "rooms": null
             },
-            "isAvailable": false
+            "isAvailable": true
           }
         ],
         "unitsPreview": [
@@ -2842,7 +2842,7 @@
                 }
               ]
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 2,
@@ -2879,7 +2879,7 @@
                 }
               ]
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 3,
@@ -2911,7 +2911,7 @@
                 }
               ]
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 4,
@@ -2943,7 +2943,7 @@
                 }
               ]
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 5,
@@ -2975,7 +2975,7 @@
                 }
               ]
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 6,
@@ -3007,7 +3007,7 @@
                 }
               ]
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 7,
@@ -3039,7 +3039,7 @@
                 }
               ]
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 8,
@@ -3071,7 +3071,7 @@
                 }
               ]
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 9,
@@ -3103,7 +3103,7 @@
                 }
               ]
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 10,
@@ -3135,7 +3135,7 @@
                 }
               ]
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 11,
@@ -3172,7 +3172,7 @@
                 }
               ]
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 12,
@@ -3209,7 +3209,7 @@
                 }
               ]
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 13,
@@ -3236,7 +3236,7 @@
                 }
               ]
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 14,
@@ -3263,7 +3263,7 @@
                 }
               ]
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 15,
@@ -3290,7 +3290,7 @@
                 }
               ]
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 16,
@@ -3322,7 +3322,7 @@
                 }
               ]
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 17,
@@ -3354,7 +3354,7 @@
                 }
               ]
             },
-            "isAvailable": false
+            "isAvailable": true
           },
           {
             "id": 18,
@@ -3386,7 +3386,7 @@
                 }
               ]
             },
-            "isAvailable": false
+            "isAvailable": true
           }
         ],
         "unitsPreview": [
@@ -3561,17 +3561,17 @@
           "transform": "translate(78.952 506.636)"
         },
         "svg": {
-          "viewBox": "0 0 500 748.284"
+          "viewBox": "0 0 1000 655.66"
         },
         "g": {
-          "transform": "translate(-791 -10)"
+          "transform": "translate(-855.17 -34)"
         },
         "prevg": {
-          "transform": "translate(-802.252 -13.882)"
+          "transform": "translate(-862.228 -56.273)"
         },
         "image": {
           "xlink": "./assets/images/floor_plans/04.png",
-          "transform": "translate(791 10)"
+          "transform": "translate(1855.17 34)"
         }
       },
       {
@@ -3581,17 +3581,17 @@
           "transform": "translate(78.666 429.927)"
         },
         "svg": {
-          "viewBox": "0 0 500 748.284"
+          "viewBox": "0 0 1000 655.66"
         },
         "g": {
-          "transform": "translate(-791 -10)"
+          "transform": "translate(-855.17 -34)"
         },
         "prevg": {
-          "transform": "translate(-802.252 -13.882)"
+          "transform": "translate(-862.228 -56.273)"
         },
         "image": {
-          "xlink": "./assets/images/floor_plans/05.png",
-          "transform": "translate(791 10)"
+          "xlink": "./assets/images/floor_plans/04.png",
+          "transform": "translate(1855.17 34)"
         }
       },
       {
@@ -3601,17 +3601,17 @@
           "transform": "translate(78.488 353.073)"
         },
         "svg": {
-          "viewBox": "0 0 500 748.284"
+          "viewBox": "0 0 1000 655.66"
         },
         "g": {
-          "transform": "translate(-791 -10)"
+          "transform": "translate(-855.17 -34)"
         },
         "prevg": {
-          "transform": "translate(-802.252 -13.882)"
+          "transform": "translate(-862.228 -56.273)"
         },
         "image": {
           "xlink": "./assets/images/floor_plans/04.png",
-          "transform": "translate(791 10)"
+          "transform": "translate(1855.17 34)"
         }
       },
       {
@@ -3621,17 +3621,17 @@
           "transform": "translate(78.214 276.393)"
         },
         "svg": {
-          "viewBox": "0 0 500 748.284"
+          "viewBox": "0 0 1000 655.66"
         },
         "g": {
-          "transform": "translate(-791 -10)"
+          "transform": "translate(-855.17 -34)"
         },
         "prevg": {
-          "transform": "translate(-802.252 -13.882)"
+          "transform": "translate(-862.228 -56.273)"
         },
         "image": {
           "xlink": "./assets/images/floor_plans/04.png",
-          "transform": "translate(791 10)"
+          "transform": "translate(1855.17 34)"
         }
       },
       {
@@ -3641,17 +3641,17 @@
           "transform": "translate(78.119 199.892)"
         },
         "svg": {
-          "viewBox": "0 0 500 748.284"
+          "viewBox": "0 0 1000 655.66"
         },
         "g": {
-          "transform": "translate(-791 -10)"
+          "transform": "translate(-855.17 -34)"
         },
         "prevg": {
-          "transform": "translate(-802.252 -13.882)"
+          "transform": "translate(-862.228 -56.273)"
         },
         "image": {
           "xlink": "./assets/images/floor_plans/04.png",
-          "transform": "translate(791 10)"
+          "transform": "translate(1855.17 34)"
         }
       },
       {
@@ -3661,17 +3661,17 @@
           "transform": "translate(78.22 123.618)"
         },
         "svg": {
-          "viewBox": "0 0 500 748.284"
+          "viewBox": "0 0 1000 655.66"
         },
         "g": {
-          "transform": "translate(-791 -10)"
+          "transform": "translate(-855.17 -34)"
         },
         "prevg": {
-          "transform": "translate(-802.252 -13.882)"
+          "transform": "translate(-862.228 -56.273)"
         },
         "image": {
           "xlink": "./assets/images/floor_plans/04.png",
-          "transform": "translate(791 10)"
+          "transform": "translate(1855.17 34)"
         }
       },
       {
@@ -3681,17 +3681,17 @@
           "transform": "translate(87.359 3.264)"
         },
         "svg": {
-          "viewBox": "0 0 500 748.284"
+          "viewBox": "0 0 1000 655.66"
         },
         "g": {
-          "transform": "translate(-791 -10)"
+          "transform": "translate(-855.17 -34)"
         },
         "prevg": {
-          "transform": "translate(-802.252 -13.882)"
+          "transform": "translate(-862.228 -56.273)"
         },
         "image": {
-          "xlink": "./assets/images/floor_plans/10.png",
-          "transform": "translate(791 10)"
+          "xlink": "./assets/images/floor_plans/04.png",
+          "transform": "translate(1855.17 34)"
         }
       }
     ]

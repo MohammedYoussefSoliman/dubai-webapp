@@ -4,16 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ronza App</title>
+    <title>Ronza App - floor</title>
   <script defer src="floor.js"></script><link href="css/styles.css" rel="stylesheet"></head>
   <body>
-    <div id="floor">
-      <div id="floor__navigation">
-        <div id="floornav__header"></div>
-        <div id="floornav__search"></div>
-        <div id="floornav__footer">
+    <div id="app">
+      <div id="navigation">
+        <div id="navigation__header"></div>
+        <div id="navigation__search">
+          <input
+            id="search_unit"
+            name="search_unit"
+            type="text"
+            placeholder="Enter unit number"
+          />
+        </div>
+        <div id="navigation__footer">
+          <div id="back"></div>
           <div id="counter"></div>
         </div>
+      </div>
+      <div id="content">
+        <div id="shape"></div>
+        <div id="units"></div>
       </div>
     </div>
   </body>

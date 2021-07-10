@@ -25,7 +25,7 @@ const ronza = new Building(
 );
 
 // header generator
-header.classList.add(scss["building--navigation__header"]);
+header.classList.add(scss["header"]);
 header.appendChild(imageTagGenerator(logo));
 header.appendChild(
   tagGenerator("h3")({
@@ -36,7 +36,7 @@ header.appendChild(
 // render anchores
 anchorsWrapper.classList.add(scss["building--navigation__anchors"]);
 // footer generator
-footer.classList.add(scss["building--navigation__footer"]);
+footer.classList.add(scss["footer"]);
 counterWrapper.classList.add(scss["counter"]);
 footer.insertAdjacentElement("afterbegin", imageTagGenerator(ronzaLogo));
 

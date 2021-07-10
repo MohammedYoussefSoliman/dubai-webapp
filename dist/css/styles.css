@@ -137,6 +137,60 @@ h1 {
   color: #f49231;
 }
 
+._1caow0eUcghYAFpzGVwfVx {
+  z-index: 30;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+._1caow0eUcghYAFpzGVwfVx img {
+  max-width: 200px;
+}
+
+._3Q2EcjjyBGb2GxjIq8STOm {
+  z-index: 30;
+  display: flex;
+  justify-content: space-between;
+}
+._3Q2EcjjyBGb2GxjIq8STOm img {
+  max-width: 150px;
+}
+
+._2I39PQc45ZDk_xF6xip2mt {
+  align-self: flex-end;
+}
+._1MZEttD2sYEuY1aHFXbFx3 {
+  display: flex;
+}
+._1YfrwtsSPOBeu_TDzjOziG {
+  position: relative;
+}
+._1YfrwtsSPOBeu_TDzjOziG::after {
+  content: "/";
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-weight: 400;
+  padding-right: 0.5rem;
+}
+._1YfrwtsSPOBeu_TDzjOziG:last-child::after {
+  content: none;
+}
+._1YfrwtsSPOBeu_TDzjOziG:last-child a {
+  padding-right: 0;
+}
+._1YfrwtsSPOBeu_TDzjOziG a {
+  font-family: "Barlow", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding-right: 0.5rem;
+  color: #ffffff;
+}
+._1YfrwtsSPOBeu_TDzjOziG._3JLa8ZBlHd0JC2NXnw5qJz a {
+  color: #f49231;
+  font-weight: 400;
+  cursor: unset;
+}
+
 ._2iy7S7Mx1CTmzrGx_HWQKL {
   width: 100vw;
   height: 100vh;
@@ -166,26 +220,130 @@ h1 {
   z-index: 10;
   background: linear-gradient(0deg, rgba(39, 36, 89, 0.07) 0%, rgba(240, 81, 35, 0.07) 100%);
 }
-._3pkfbk4K7-DViLYWi4rSPW {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-._3pkfbk4K7-DViLYWi4rSPW img {
-  max-width: 200px;
-}
 ._3H22s0JcJz2Be8Ng7IOApm {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 2rem;
   z-index: 30;
 }
-._22MSr1fH4QMXUcmVurRtce {
+
+._1Ex4K9Tkk54k4NgYr-PENs {
+  width: 100vw;
+  height: 100vh;
   display: flex;
-  justify-content: space-between;
 }
-._22MSr1fH4QMXUcmVurRtce img {
-  max-width: 150px;
+._36MQfBsysyzMMaZzMEG0of {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 40vw;
+  height: 100%;
+  background-color: #34332f;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+}
+._36MQfBsysyzMMaZzMEG0of::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background: linear-gradient(0deg, rgba(39, 36, 89, 0.07) 0%, rgba(240, 81, 35, 0.07) 100%);
+}
+._10JPeR1het5pbIYQWY-K2h {
+  width: 70%;
+  z-index: 30;
+}
+._10JPeR1het5pbIYQWY-K2h h3 {
+  color: #f05123;
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+._10JPeR1het5pbIYQWY-K2h h4 {
+  display: none;
+  color: #e91313;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+._10JPeR1het5pbIYQWY-K2h h4._2LsKX1f5na2WoHCJvLSnxB {
+  display: block;
+}
+._10JPeR1het5pbIYQWY-K2h input {
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #f49231;
+  border: 2px solid #f49231;
+  outline: none;
+  background: transparent;
+}
+._10JPeR1het5pbIYQWY-K2h input::placeholder {
+  color: #f49231;
+  font-size: 2rem;
+  font-weight: 300;
+}
+._10JPeR1het5pbIYQWY-K2h input:focus::placeholder {
+  opacity: 0;
+}
+.vA6JJ1V8rQXi7nbtFXolo {
+  width: 60vw;
+  position: absolute;
+  right: 0;
+  padding: 2rem;
+}
+._2yQRCFm3oB1LPznqqSkxO0 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60vh;
+}
+._1Mg6MWgBM2aZaDhdoN_ZIQ {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem;
+}
+
+._3nu0aKPyJ0YnT4eWMC0iMl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  height: 50px;
+  border-radius: 25px;
+  background: #34332f;
+}
+._3nu0aKPyJ0YnT4eWMC0iMl a,
+._3nu0aKPyJ0YnT4eWMC0iMl span {
+  font-family: "Barlow", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+._3nu0aKPyJ0YnT4eWMC0iMl a._1iaCZog3CJjQNp5YbYdQdP,
+._3nu0aKPyJ0YnT4eWMC0iMl span._1iaCZog3CJjQNp5YbYdQdP {
+  color: #f49231;
+  margin-right: 1rem;
+}
+._3nu0aKPyJ0YnT4eWMC0iMl._3JLa8ZBlHd0JC2NXnw5qJz {
+  background: #ffffff;
+  border: 6px solid #fdeedf;
+}
+._3nu0aKPyJ0YnT4eWMC0iMl._3JLa8ZBlHd0JC2NXnw5qJz a {
+  color: #f49231;
+  font-weight: 400;
+  cursor: unset;
+  color: #34332f;
 }
 
 ._1hZi98Ej1OjUxKoEFI1bDM {
