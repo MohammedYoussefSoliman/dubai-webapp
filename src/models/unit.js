@@ -50,7 +50,11 @@ export default class Unit {
   }
 
   get getUnitNumber() {
-    return `${this.floorNumber}${this.unit.name}`;
+    if (this.unit.type === "resid") {
+      return `a${this.floorNumber}${this.unit.name}`;
+    } else {
+      return `${this.floorNumber}${this.unit.name}`;
+    }
   }
 
   render() {
@@ -100,7 +104,11 @@ export default class Unit {
     typeHeader.innerText = `Unit - ${unit.type}`;
     const unitHeader = document.createElement("h3");
     unitHeader.classList.add(scss["alternative"]);
-    unitHeader.innerText = `Unit ${unit.name}`;
+    if (unit.type === "resid") {
+      unitHeader.innerText = `Unit ${unit.name} (apartment)`;
+    } else {
+      unitHeader.innerText = `Unit ${unit.name}`;
+    }
     mapUnit.appendChild(typeHeader);
     mapUnit.appendChild(unitHeader);
     // generate previewUnits
