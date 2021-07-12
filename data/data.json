@@ -8,8 +8,9 @@
     "g": {
       "transform": "translate(23 256.77)"
     },
-    "previewg": {
-      "transform": "translate(-862.228 -56.273)"
+    "preview": {
+      "transform": "translate(-862.228 -56.273)",
+      "viewBox": "0 0 409.218 259.998"
     },
     "image": {
       "transform": "translate(-23 -256.77)",

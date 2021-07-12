@@ -67,7 +67,6 @@ export default class Unit {
       gTransform,
       viewBox,
     } = this;
-    console.log(planes3D);
     const h3 = document.createElement("h3");
     const p = document.createElement("p");
     h3.innerText = "Unit area";
@@ -97,7 +96,13 @@ export default class Unit {
       plan3D.classList.add(scss["shop--img"]);
       plan3D.appendChild(imageTagGenerator(shopPlans[floorNumber][unit.plan]));
     }
-
+    const typeHeader = document.createElement("h3");
+    typeHeader.innerText = `Unit - ${unit.type}`;
+    const unitHeader = document.createElement("h3");
+    unitHeader.classList.add(scss["alternative"]);
+    unitHeader.innerText = `Unit ${unit.name}`;
+    mapUnit.appendChild(typeHeader);
+    mapUnit.appendChild(unitHeader);
     // generate previewUnits
     const xmlns = "http://www.w3.org/2000/svg";
     const svg = document.createElementNS(xmlns, "svg");
@@ -112,7 +117,22 @@ export default class Unit {
       path.setAttribute("id", previewUnit.id);
       path.setAttributeNS(null, "d", `${previewUnit.shape.d}`);
       path.setAttributeNS(null, "transform", `${previewUnit.shape.transform}`);
-      if (previewUnit.name === unit.name) {
+      console.log(floorNumber);
+      if (floorNumber == 0) {
+        const pathOutoor = document.createElementNS(xmlns, "path");
+        pathOutoor.classList.add(scss["preview--outdoor"]);
+        pathOutoor.setAttributeNS(null, "d", `${previewUnit.outdoor.d}`);
+        pathOutoor.setAttributeNS(
+          null,
+          "transform",
+          `${previewUnit.outdoor.transform}`
+        );
+        if (previewUnit.id === unit.id) {
+          pathOutoor.classList.add(scss["active--blinker"]);
+        }
+        g.appendChild(pathOutoor);
+      }
+      if (previewUnit.id === unit.id) {
         path.classList.add(scss["active--blinker"]);
       }
       g.appendChild(path);
