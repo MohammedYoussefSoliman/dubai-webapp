@@ -3,6 +3,7 @@ import data from "../data/data.json";
 import scss from "./styles.module.scss";
 import logo from "./assets/svgs/logo.svg";
 import { imageTagGenerator, tagGenerator } from "./helpers";
+import authentication from "./auth";
 // dom
 const app = document.getElementById("app");
 const navigation = document.getElementById("navigation");
@@ -45,25 +46,29 @@ const unit = new Unit(
   mapUnit
 );
 
-unit.render();
-unit.navigation();
+if (authentication.window) {
+  unit.render();
+  unit.navigation();
 
-// header generator
-header.classList.add(scss["header"]);
-header.appendChild(imageTagGenerator(logo));
-header.appendChild(
-  tagGenerator("h3")({
-    content: "New Capital - MU2 - 62",
-    classes: [scss["header--label"]],
-  })
-);
-// footer generator
-footer.classList.add(scss["footer"]);
-counterWrapper.classList.add(scss["counter"]);
-counterWrapper.classList.add(scss["unit"]);
-const unitName = unit.getUnitNumber;
-counterWrapper.appendChild(
-  tagGenerator("h2")({
-    content: unitName,
-  })
-);
+  // header generator
+  header.classList.add(scss["header"]);
+  header.appendChild(imageTagGenerator(logo));
+  header.appendChild(
+    tagGenerator("h3")({
+      content: "New Capital - MU2 - 62",
+      classes: [scss["header--label"]],
+    })
+  );
+  // footer generator
+  footer.classList.add(scss["footer"]);
+  counterWrapper.classList.add(scss["counter"]);
+  counterWrapper.classList.add(scss["unit"]);
+  const unitName = unit.getUnitNumber;
+  counterWrapper.appendChild(
+    tagGenerator("h2")({
+      content: unitName,
+    })
+  );
+} else {
+  authentication.generateExpiredContent();
+}
