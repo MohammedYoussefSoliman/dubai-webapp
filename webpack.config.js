@@ -8,7 +8,7 @@ module.exports = {
   entry: {
     building: "./src/index.js",
     floor: "./src/floor.js",
-    // unit: "./src/unit.js",
+    unit: "./src/unit.js",
   },
   output: {
     filename: "[name].js",
@@ -80,6 +80,11 @@ module.exports = {
       filename: "floor.html",
       template: "./src/floor.html",
       chunks: ["floor"],
+    }),
+    new HtmlWebpackPlugin({
+      filename: "unit.html",
+      template: "./src/unit.html",
+      chunks: ["unit"],
     }),
   ],
 };

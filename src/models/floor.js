@@ -18,7 +18,7 @@ export default class Floor {
       floor: this.floor.floor,
     };
 
-    if (this.floor.floor >= 4) {
+    if (this.floor.floor >= 4 && this.floor.floor < 10) {
       this.units = buildingData.typicalUnits;
     } else {
       this.units = this.floor.units;
@@ -36,20 +36,19 @@ export default class Floor {
   }
 
   allUnits = [];
+  allAnchors = [];
 
   render() {
     const {
-      buildingData,
       floorNumber,
       floor,
       units,
       allUnits,
+      allAnchors,
       unitsWrapper,
       svgWrapper,
+      handleUnitActions,
     } = this;
-
-    console.log(buildingData);
-    console.log(units);
     const xmlns = "http://www.w3.org/2000/svg";
     const xlink = "http://www.w3.org/1999/xlink";
     const svg = document.createElementNS(xmlns, "svg");
@@ -61,6 +60,8 @@ export default class Floor {
     if (floor.image.transform) {
       image.setAttributeNS(null, "transform", `${floor.image.transform}`);
     }
+    image.setAttributeNS(null, "width", `${floor.image.width}`);
+    image.setAttributeNS(null, "height", `${floor.image.height}`);
     image.setAttributeNS(xlink, "href", `${floor_plans[floorNumber]}`);
     g.appendChild(image);
     svg.appendChild(g);
@@ -68,26 +69,47 @@ export default class Floor {
     units.forEach((unit) => {
       // generate the paths
       const path = document.createElementNS(xmlns, "path");
-      path.classList.add("unit-path");
-      path.classList.add("path");
+      path.classList.add(scss["unit--path"]);
+      path.classList.add(scss["path"]);
       path.setAttribute("data-name", unit.id);
       path.setAttribute("id", unit.id);
       path.setAttributeNS(null, "d", `${unit.shape.d}`);
       path.setAttributeNS(null, "transform", `${unit.shape.transform}`);
       g.appendChild(path);
       allUnits.push(path);
+
+      if (floor.floor === 0) {
+        const outdoorPath = document.createElementNS(xmlns, "path");
+        outdoorPath.classList.add(scss["out--path"]);
+        outdoorPath.setAttribute("data-name", unit.name);
+        outdoorPath.setAttribute("data-type", "outdoor");
+        outdoorPath.setAttributeNS(null, "d", `${unit.planInfo.outdoor.d}`);
+        g.appendChild(outdoorPath);
+        allUnits.push(outdoorPath);
+      }
       // generate the unit anchors
       const unitAnchor = document.createElement("div");
       unitAnchor.classList.add(scss["unit"]);
+      if (!unit.isAvailable) {
+        unitAnchor.classList.add(scss["disabled"]);
+      }
       const anchor = document.createElement("a");
       const numberSpan = document.createElement("span");
       numberSpan.classList.add(scss["number"]);
       unitAnchor.id = `${unit.id}`;
-      anchor.setAttribute(
-        "href",
-        `unit.html?floor=${floor.floor}&unit=${unit.id}`
-      );
-      anchor.innerText = `${unit.type} - ${unit.unit ? unit.unit : ""}`;
+      if (unit.isAvailable) {
+        anchor.setAttribute(
+          "href",
+          `unit.html?floor=${floor.floor}&unit=${unit.id}`
+        );
+      } else {
+        anchor.setAttribute("href", `#`);
+      }
+      if (unit.unit) {
+        anchor.innerText = `${unit.type} - ${unit.unit ? unit.unit : ""}`;
+      } else {
+        anchor.innerText = unit.type;
+      }
       if (unit.type === "resid") {
         numberSpan.innerText = `a${floorNumber}${unit.name}`;
       } else {
@@ -95,32 +117,93 @@ export default class Floor {
       }
       unitAnchor.appendChild(anchor);
       unitAnchor.insertAdjacentElement("afterbegin", numberSpan);
-      allUnits.push(unitAnchor);
+      allAnchors.push(unitAnchor);
       unitsWrapper.appendChild(unitAnchor);
     });
 
     allUnits.forEach((unit) => {
+      let outDoor;
+      const currentUnit = units.find((u) => u.id == unit.id);
+      const currentAnchor = allAnchors.find((u) => u.id == unit.id);
       unit.addEventListener("click", (event) => {
-        event.preventDefault();
-        if (unit.isAvailable) {
+        if (currentUnit.isAvailable) {
           window.location.href = `unit.html?floor=${floor.floor}&unit=${unit.id}`;
         } else {
           return;
         }
       });
+      unit.addEventListener("mouseenter", (event) => {
+        if (floor.floor === 0) {
+          outDoor = allUnits.find(
+            (u) =>
+              u.dataset.type === "outdoor" &&
+              u.dataset.name === currentUnit.name
+          );
+          outDoor.classList.add(scss["active"]);
+        }
+        unit.classList.add(scss["active"]);
+        currentAnchor.classList.add(scss["active"]);
+      });
+      unit.addEventListener("mouseleave", (event) => {
+        if (floor.floor === 0) {
+          outDoor = allUnits.find(
+            (u) =>
+              u.dataset.type === "outdoor" &&
+              u.dataset.name === currentUnit.name
+          );
+          outDoor.classList.remove(scss["active"]);
+        }
+        unit.classList.remove(scss["active"]);
+        currentAnchor.classList.remove(scss["active"]);
+      });
     });
+    allAnchors.forEach((unit) => {
+      let outDoor;
+      const currentUnit = units.find((u) => u.id == unit.id);
+      const currentPath = allUnits.find((u) => u.id == unit.id);
+      unit.addEventListener("click", (event) => {
+        if (currentUnit.isAvailable) {
+          window.location.href = `unit.html?floor=${floor.floor}&unit=${unit.id}`;
+        } else {
+          return;
+        }
+      });
+      unit.addEventListener("mouseenter", (event) => {
+        if (floor.floor === 0) {
+          outDoor = allUnits.find(
+            (u) =>
+              u.dataset.type === "outdoor" &&
+              u.dataset.name === currentUnit.name
+          );
+          outDoor.classList.add(scss["active"]);
+        }
+        unit.classList.add(scss["active"]);
+        currentPath.classList.add(scss["active"]);
+      });
+      unit.addEventListener("mouseleave", (event) => {
+        if (floor.floor === 0) {
+          outDoor = allUnits.find(
+            (u) =>
+              u.dataset.type === "outdoor" &&
+              u.dataset.name === currentUnit.name
+          );
+          outDoor.classList.remove(scss["active"]);
+        }
+        unit.classList.remove(scss["active"]);
+        currentPath.classList.remove(scss["active"]);
+      });
+    });
+
+    this.searchUnit(allUnits);
   }
 
   searchUnit(units) {
     const { searchInput, history } = this;
     searchInput.addEventListener("keyup", (e) => {
-      e.preventDefault();
-      console.log(e.target.value);
       units.forEach((unit) => {
-        if (e.target.value.toLowerCase() === unit.name.toLowerCase()) {
+        if (e.target.value.toLowerCase() === unit.dataset.name.toLowerCase()) {
           unit.classList.add(scss["active"]);
           // searchErr.classList.remove("error");
-          console.log(unit);
         }
       });
     });

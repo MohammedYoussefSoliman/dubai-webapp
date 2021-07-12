@@ -10,6 +10,7 @@ $lato: "Lato", sans-serif;
 $barlow: "Barlow", sans-serif;
 
 $blue: #272459;
+$violet: #6e00ff;
 $orange: #f05123;
 $blumine: #14687b;
 $secondary-color: #f49231;
@@ -104,5 +105,25 @@ h1 {
   }
   &.active {
     opacity: 0.65;
+  }
+}
+
+.out--path {
+  fill: $violet;
+  opacity: 0;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.65;
+  }
+  &.active {
+    opacity: 0.65;
+  }
+}
+
+.unit--path {
+  &.notAvailable {
+    fill: #5e5e5e;
+    opacity: 0.7;
+    cursor: not-allowed;
   }
 }

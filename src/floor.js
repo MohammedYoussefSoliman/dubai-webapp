@@ -52,4 +52,8 @@ counterWrapper.appendChild(
     content: currentFloor.getFloorNumber,
   })
 );
+
+if (currentFloor.getFloorNumber === "00") {
+  contentWrapper.classList.add(scss["ground"]);
+}
 // footer.insertAdjacentElement("afterbegin", imageTagGenerator(ronzaLogo));
