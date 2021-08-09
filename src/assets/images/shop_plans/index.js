@@ -68,6 +68,26 @@ import shop215 from "./02/shop-15.jpg";
 import shop216 from "./02/shop-16.jpg";
 import shop217 from "./02/shop-17.jpg";
 import shop218 from "./02/shop-18.jpg";
+// floor 10
+import shop1001 from "./10/shop-01.jpg";
+import shop1002 from "./10/shop-02.jpg";
+import shop1003 from "./10/shop-03.jpg";
+import shop1004 from "./10/shop-04.jpg";
+import shop1005 from "./10/shop-05.jpg";
+import shop1006 from "./10/shop-06.jpg";
+import shop1007 from "./10/shop-07.jpg";
+import shop1008 from "./10/shop-08.jpg";
+import shop1009 from "./10/shop-09.jpg";
+import shop1010 from "./10/shop-10.jpg";
+import shop1011 from "./10/shop-11.jpg";
+import shop1012 from "./10/shop-12.jpg";
+import shop1013 from "./10/shop-13.jpg";
+import shop1014 from "./10/shop-14.jpg";
+import shop1015 from "./10/shop-15.jpg";
+import shop1016 from "./10/shop-16.jpg";
+import shop1017 from "./10/shop-17.jpg";
+import shop1018 from "./10/shop-18.jpg";
+import shop1019 from "./10/shop-19.jpg";
 
 const plans = {
   0: {
@@ -143,6 +163,27 @@ const plans = {
     "shop-16": shop216,
     "shop-17": shop217,
     "shop-18": shop218,
+  },
+  10: {
+    "shop-01": shop1001,
+    "shop-02": shop1002,
+    "shop-03": shop1003,
+    "shop-04": shop1004,
+    "shop-05": shop1005,
+    "shop-06": shop1006,
+    "shop-07": shop1007,
+    "shop-08": shop1008,
+    "shop-09": shop1009,
+    "shop-10": shop1010,
+    "shop-11": shop1011,
+    "shop-12": shop1012,
+    "shop-13": shop1013,
+    "shop-14": shop1014,
+    "shop-15": shop1015,
+    "shop-16": shop1016,
+    "shop-17": shop1017,
+    "shop-18": shop1018,
+    "shop-19": shop1019,
   },
 };
 

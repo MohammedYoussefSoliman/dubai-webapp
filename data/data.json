@@ -3709,11 +3709,11 @@
           "viewBox": "0 0 1060 695"
         },
         "g": {
-          "transform": "translate(-816)"
+          "transform": "translate(-835 -11)"
         },
         "image": {
           "xlink": "./assets/images/floor_plans/04.png",
-          "transform": "translate(816)",
+          "transform": "translate(835 11)",
           "width": 1060,
           "height": 695
         },
@@ -3725,202 +3725,96 @@
           {
             "id": 1,
             "name": "01",
-            "type": "admin",
-            "unit": 1,
-            "plan": "admin-unit01",
+            "type": "resid",
+            "unit": null,
+            "plan": "shop-01",
             "shape": {
-              "d": "M294.249,6389.9h160.9v84.723h41.6v26.4h-15.2V6522.3h-187.3Z",
-              "transform": "translate(536 -5839)"
+              "d": "M2313.25,6392H2474.5v84h42.75v49H2387.5v-3.25H2377V6525h-63.75Z",
+              "transform": "translate(-1467 -5839)"
             },
             "planInfo": {
               "area": 54,
-              "rooms": [
-                {
-                  "name": "room 1",
-                  "y": 3.25,
-                  "x": 2.7
-                },
-                {
-                  "name": "room 2",
-                  "y": 3.25,
-                  "x": 2.85
-                },
-                {
-                  "name": "workstation",
-                  "y": 6.8,
-                  "x": 6
-                },
-                {
-                  "name": "W.C",
-                  "y": 1.55,
-                  "x": 1.45
-                },
-                {
-                  "name": "kitchenette",
-                  "y": 1.55,
-                  "x": 1
-                }
-              ]
+              "rooms": null
             },
             "isAvailable": true
           },
           {
             "id": 2,
             "name": "02",
-            "type": "admin",
-            "unit": 7,
-            "plan": "admin-unit07",
+            "type": "resid",
+            "unit": null,
+            "plan": "shop-02",
             "shape": {
-              "d": "M915,6457.333h124.655v20.9h7.408v40.841h-3.039v4.179H916.18v-4.179H915Z",
-              "transform": "translate(536 -5839)"
+              "d": "M2936.75,6458.5v63h1.9v3.113H3067.5V6521.5h2.692v-40.733h-7.5V6458.5Z",
+              "transform": "translate(-1467 -5839)"
             },
             "planInfo": {
               "area": 21,
-              "rooms": [
-                {
-                  "name": "room 1",
-                  "y": 3,
-                  "x": 2.8
-                },
-                {
-                  "name": "workstation",
-                  "y": 3.15,
-                  "x": 3
-                },
-                {
-                  "name": "W.C",
-                  "y": 1.8,
-                  "x": 1.5
-                }
-              ]
+              "rooms": null
             },
             "isAvailable": true
           },
           {
             "id": 3,
             "name": "03",
-            "type": "admin",
-            "unit": 7,
-            "plan": "admin-unit07",
+            "type": "resid",
+            "unit": null,
+            "plan": "shop-03",
             "shape": {
-              "d": "M1057.131,6457.333v20.9h-6.839v41.031h3.039v3.989h128.033v-3.989h9.688v3.989h37.232v-65.917Z",
-              "transform": "translate(536 -5839)"
+              "d": "M3074.037,6480.959h7.308v-22.308h170.769v65.577h-37.308v-2.885H3205v2.885H3076.345v-2.885h-2.308Z",
+              "transform": "translate(-1467 -5839)"
             },
             "planInfo": {
               "area": 28,
-              "rooms": [
-                {
-                  "name": "room 1",
-                  "y": 3,
-                  "x": 2.8
-                },
-                {
-                  "name": "workstation",
-                  "y": 3.15,
-                  "x": 3
-                },
-                {
-                  "name": "W.C",
-                  "y": 1.8,
-                  "x": 1.5
-                }
-              ]
+              "rooms": null
             },
             "isAvailable": true
           },
           {
             "id": 4,
             "name": "04",
-            "type": "admin",
-            "unit": 6,
-            "plan": "admin-unit06",
+            "type": "resid",
+            "unit": null,
+            "plan": "shop-04",
             "shape": {
-              "d": "M1231.163,6389.53h89.247v133.229h-89.247Z",
-              "transform": "translate(536 -5839)"
+              "d": "M3254.229,6524.228h86.923v-3.077h3.269V6394.613h-3.269v-2.692h-86.923Z",
+              "transform": "translate(-1467 -5839)"
             },
             "planInfo": {
               "area": 28,
-              "rooms": [
-                {
-                  "name": "room 1",
-                  "y": 3,
-                  "x": 2.7
-                },
-                {
-                  "name": "workstation",
-                  "y": 4.5,
-                  "x": 1.3
-                },
-                {
-                  "name": "W.C",
-                  "y": 1.45,
-                  "x": 1.4
-                }
-              ]
+              "rooms": null
             },
             "isAvailable": true
           },
           {
             "id": 5,
             "name": "05",
-            "type": "admin",
-            "unit": 6,
-            "plan": "admin-unit06",
+            "type": "resid",
+            "unit": null,
+            "plan": "shop-05",
             "shape": {
-              "d": "M1231.163,6252.77h89.568v135.155h-89.568Z",
-              "transform": "translate(536 -5839)"
+              "d": "M3281.152,6253.036h63.269v132.154h-3.269v3.654h-86.923v-127.5h26.923Z",
+              "transform": "translate(-1467 -5839)"
             },
             "planInfo": {
               "area": 40,
-              "rooms": [
-                {
-                  "name": "room 1",
-                  "y": 3,
-                  "x": 2.7
-                },
-                {
-                  "name": "workstation",
-                  "y": 4.5,
-                  "x": 1.3
-                },
-                {
-                  "name": "W.C",
-                  "y": 1.45,
-                  "x": 1.4
-                }
-              ]
+              "rooms": null
             },
             "isAvailable": true
           },
           {
             "id": 6,
             "name": "06",
-            "type": "admin",
-            "unit": 5,
-            "plan": "admin-unit05",
+            "type": "resid",
+            "unit": null,
+            "plan": "shop-06",
             "shape": {
-              "d": "M1231.163,6143.939h89.247V6249.88h-89.247Z",
-              "transform": "translate(536 -5839)"
+              "d": "M3254.229,6145h90.192v105.769H3280.96V6242.5h-26.731Z",
+              "transform": "translate(-1467 -5839)"
             },
             "planInfo": {
               "area": 40,
-              "rooms": [
-                {
-                  "name": "room 1",
-                  "y": 4.1,
-                  "x": 3
-                },
-                {
-                  "name": "workstation",
-                  "y": 2.2,
-                  "x": 1.45
-                },
-                {
-                  "name": "W.C",
-                  "y": 1.8,
-                  "x": 1.45
-                }
-              ]
+              "rooms": null
             },
             "isAvailable": true
           },
@@ -3928,26 +3822,15 @@
             "id": 7,
             "name": "07",
             "type": "resid",
-            "unit": 4,
-            "plan": "resid-unit04",
+            "unit": null,
+            "plan": "shop-07",
             "shape": {
-              "d": "M1231.163,6015.526h25.683v-7.384h63.565v133.55h-89.247Z",
-              "transform": "translate(536 -5839)"
+              "d": "M3281.729,6006.728h58.846v4.423h3.462v87.308h-3.462v10.192h3.462v33.654H3255v-127.5h26.731Z",
+              "transform": "translate(-1467 -5839)"
             },
             "planInfo": {
               "area": 40,
-              "rooms": [
-                {
-                  "name": "room 1",
-                  "y": 4.9,
-                  "x": 4.05
-                },
-                {
-                  "name": "W.C",
-                  "y": 2.1,
-                  "x": 1.9
-                }
-              ]
+              "rooms": null
             },
             "isAvailable": true
           },
@@ -3955,31 +3838,15 @@
             "id": 8,
             "name": "08",
             "type": "resid",
-            "unit": 1,
-            "plan": "resid-unit01",
+            "unit": null,
+            "plan": "shop-08",
             "shape": {
-              "d": "M1257.488,5872.024h62.922V6004.29h-62.922v-8.026h-26v-56.181h26Z",
-              "transform": "translate(536 -5839)"
+              "d": "M3281.345,5870.959h60v2.885h3.269v126.923h-3.269v2.885h-60v-7.885h-26.538v-56.539h26.538Z",
+              "transform": "translate(-1467 -5839)"
             },
             "planInfo": {
               "area": 40,
-              "rooms": [
-                {
-                  "name": "room 1",
-                  "y": 3.1,
-                  "x": 2.9
-                },
-                {
-                  "name": "reception",
-                  "y": 4.1,
-                  "x": 3
-                },
-                {
-                  "name": "W.C",
-                  "x": 2.1,
-                  "y": 1.7
-                }
-              ]
+              "rooms": null
             },
             "isAvailable": true
           },
@@ -3987,31 +3854,15 @@
             "id": 9,
             "name": "09",
             "type": "resid",
-            "unit": 3,
-            "plan": "resid-unit03",
+            "unit": null,
+            "plan": "shop-09",
             "shape": {
-              "d": "M1013.8,5949.563l-.012-62.552H992.722l.012-15.558H916.18v3.21h-8.89v-3.21H792.212v78.11Z",
-              "transform": "translate(536 -5839)"
+              "d": "M3037.115,5884.921H3015.96v-14.346h-76.923v4.038h-10.192v-4.038H2817.115v2.692h-3.462v76.154l223.462-.192Z",
+              "transform": "translate(-1467 -5839)"
             },
             "planInfo": {
               "area": 50,
-              "rooms": [
-                {
-                  "name": "room 1",
-                  "y": 3,
-                  "x": 2.8
-                },
-                {
-                  "name": "workstation",
-                  "y": 4.1,
-                  "x": 3.2
-                },
-                {
-                  "name": "W.C",
-                  "y": 2.45,
-                  "x": 1
-                }
-              ]
+              "rooms": null
             },
             "isAvailable": true
           },
@@ -4019,36 +3870,15 @@
             "id": 10,
             "name": "10",
             "type": "resid",
-            "unit": 2,
-            "plan": "resid-unit02",
+            "unit": null,
+            "plan": "shop-10",
             "shape": {
-              "d": "M966.753,5991.94v-39.015H791.946V6102.6H907.537v-3.951h2.469v-70.134H893.954v-23.707h13.582v-3.7h2.469v-9.162Z",
-              "transform": "translate(536 -5839)"
+              "d": "M2813.653,5951.716h176.018v39.65h-57.2v9.368h-3.479v9.615h3.479v88.876h-3.479v3.269H2816.728v-3.269h-2.885l-.191-88.876h3.075v-9.615h-2.885Z",
+              "transform": "translate(-1467 -5839)"
             },
             "planInfo": {
               "area": 85,
-              "rooms": [
-                {
-                  "name": "room 1",
-                  "y": 5.4,
-                  "x": 3.35
-                },
-                {
-                  "name": "reception",
-                  "y": 5.5,
-                  "x": 3.4
-                },
-                {
-                  "name": "kitchen",
-                  "y": 2.45,
-                  "x": 1.8
-                },
-                {
-                  "name": "W.C",
-                  "y": 2.6,
-                  "x": 2.05
-                }
-              ]
+              "rooms": null
             },
             "isAvailable": true
           },
@@ -4056,26 +3886,15 @@
             "id": 11,
             "name": "11",
             "type": "resid",
-            "unit": 4,
-            "plan": "resid-unit04",
+            "unit": null,
+            "plan": "shop-11",
             "shape": {
-              "d": "M1001.624,5995.173h-88.9v6.667h3.7v8.644h-3.7V6102.6h88.9Z",
-              "transform": "translate(536 -5839)"
+              "d": "M2935.575,5994.034h88.846v107.885h-85.769v-2.5h-3.077V6010.38h3.077v-10h-3.077Z",
+              "transform": "translate(-1467 -5839)"
             },
             "planInfo": {
               "area": 44,
-              "rooms": [
-                {
-                  "name": "room 1",
-                  "y": 4.9,
-                  "x": 4.05
-                },
-                {
-                  "name": "W.C",
-                  "y": 2.1,
-                  "x": 1.9
-                }
-              ]
+              "rooms": null
             },
             "isAvailable": true
           },
@@ -4083,26 +3902,15 @@
             "id": 12,
             "name": "12",
             "type": "resid",
-            "unit": 4,
-            "plan": "resid-unit04",
+            "unit": null,
+            "plan": "shop-12",
             "shape": {
-              "d": "M1004.34,5995.173h80.752v21.484h8.149v85.691h-39.759v-3.7h-9.137v3.7H1004.34Z",
-              "transform": "translate(536 -5839)"
+              "d": "M3026.921,5994.034h81.731v21.923h7.692v85.577h-40v-3.077H3067.5v3.077h-40.577Z",
+              "transform": "translate(-1467 -5839)"
             },
             "planInfo": {
               "area": 44,
-              "rooms": [
-                {
-                  "name": "room 1",
-                  "y": 4.9,
-                  "x": 4.05
-                },
-                {
-                  "name": "W.C",
-                  "y": 2.1,
-                  "x": 1.9
-                }
-              ]
+              "rooms": null
             },
             "isAvailable": true
           },
@@ -4110,228 +3918,111 @@
             "id": 13,
             "name": "13",
             "type": "resid",
-            "unit": 4,
-            "plan": "resid-unit04",
+            "unit": null,
+            "plan": "shop-13",
             "shape": {
-              "d": "M1103.816,5995.173v21.9h-7.6v85.336h89.574v-91.619h-3.8v-9.644h3.8v-5.97Z",
-              "transform": "translate(536 -5839)"
+              "d": "M3126.728,5994.034v22.5h-8.077v85.577h85.769v-3.461h4.615V6010.38h-4.615v-10h4.615v-6.346Z",
+              "transform": "translate(-1467 -5839)"
             },
             "planInfo": {
               "area": 40,
-              "rooms": [
-                {
-                  "name": "room 1",
-                  "y": 4.9,
-                  "x": 4.05
-                },
-                {
-                  "name": "W.C",
-                  "y": 2.1,
-                  "x": 1.9
-                }
-              ]
+              "rooms": null
             },
             "isAvailable": true
           },
           {
             "id": 14,
             "name": "14",
-            "type": "admin",
+            "type": "resid",
             "unit": 4,
-            "plan": "admin-unit04",
+            "plan": "shop-14",
             "shape": {
-              "d": "M1050.481,6323.052h135.6v61.226h-4.238v2.776h-11.4v25.279H1050.481V6392.46h2.484v-8.183h-2.484Z",
-              "transform": "translate(536 -5839)"
+              "d": "M3074.037,6323.2c.138-.325,135.663,0,135.663,0v62.379h-5.276V6390h-10.577v23.269h-119.81v-18.654h2.695v-9.808h-2.695Z",
+              "transform": "translate(-1467 -5839)"
             },
             "planInfo": {
               "area": 50,
-              "rooms": [
-                {
-                  "name": "room 1",
-                  "y": 3,
-                  "x": 2.8
-                },
-                {
-                  "name": "workstation",
-                  "y": 4.1,
-                  "x": 3.2
-                },
-                {
-                  "name": "W.C",
-                  "y": 2.45,
-                  "x": 1
-                }
-              ]
+              "rooms": null
             },
             "isAvailable": true
           },
           {
             "id": 15,
             "name": "15",
-            "type": "admin",
-            "unit": 4,
-            "plan": "admin-unit04",
+            "type": "resid",
+            "unit": null,
+            "plan": "shop-15",
             "shape": {
-              "d": "M913.519,6323.052h134.112v61.132H1044.4v7.978h3.229v20.326H921.117V6387.6h-4.939v-3.419h-2.659Z",
-              "transform": "translate(536 -5839)"
+              "d": "M2935.767,6324.034H3070v61.154h-2.885v9.23H3070v19.231H2943.267v-22.308h-4.423v-6.154h-3.077Z",
+              "transform": "translate(-1467 -5839)"
             },
             "planInfo": {
               "area": 50,
-              "rooms": [
-                {
-                  "name": "room 1",
-                  "y": 3,
-                  "x": 2.8
-                },
-                {
-                  "name": "workstation",
-                  "y": 4.1,
-                  "x": 3.2
-                },
-                {
-                  "name": "W.C",
-                  "y": 2.45,
-                  "x": 1
-                }
-              ]
+              "rooms": null
             },
             "isAvailable": true
           },
           {
             "id": 16,
             "name": "16",
-            "type": "admin",
-            "unit": 4,
-            "plan": "admin-unit04",
+            "type": "resid",
+            "unit": null,
+            "plan": "shop-16",
             "shape": {
-              "d": "M911.049,6323.052v61.322h-3.8v3.229h-5.319v24.5H776.178v-19.566h2.849v-8.168h-2.849v-61.322Z",
-              "transform": "translate(536 -5839)"
+              "d": "M2931.921,6324.034v61.154h-2.692v5.769h-4.808v22.115H2797.305V6394.61h3.269v-9.423h-3.269v-61.154Z",
+              "transform": "translate(-1467 -5839)"
             },
             "planInfo": {
               "area": 50,
-              "rooms": [
-                {
-                  "name": "room 1",
-                  "y": 3,
-                  "x": 2.8
-                },
-                {
-                  "name": "workstation",
-                  "y": 4.1,
-                  "x": 3.2
-                },
-                {
-                  "name": "W.C",
-                  "y": 2.45,
-                  "x": 1
-                }
-              ]
+              "rooms": null
             },
             "isAvailable": true
           },
           {
             "id": 17,
             "name": "17",
-            "type": "admin",
-            "unit": 4,
-            "plan": "admin-unit04",
+            "type": "resid",
+            "unit": null,
+            "plan": "shop-17",
             "shape": {
-              "d": "M638.266,6323.052H772.758v61.132h-2.849v7.978h2.849V6412.3H646.245v-24.5H641.5v-3.609h-3.229Z",
-              "transform": "translate(536 -5839)"
+              "d": "M2660,6324.034h134.615v61.346h-3.077v9.039h3.077v18.654H2667.5v-21.539h-5.192v-6.154H2660Z",
+              "transform": "translate(-1467 -5839)"
             },
             "planInfo": {
               "area": 50,
-              "rooms": [
-                {
-                  "name": "room 1",
-                  "y": 3,
-                  "x": 2.8
-                },
-                {
-                  "name": "workstation",
-                  "y": 4.1,
-                  "x": 3.2
-                },
-                {
-                  "name": "W.C",
-                  "y": 2.45,
-                  "x": 1
-                }
-              ]
+              "rooms": null
             },
             "isAvailable": true
           },
           {
             "id": 18,
             "name": "08",
-            "type": "admin",
-            "unit": 3,
-            "plan": "admin-unit03",
+            "type": "resid",
+            "unit": null,
+            "plan": "shop-18",
             "shape": {
-              "d": "M635.987,6323.052v61.132h-3.039v3.229h-5.319v24.695h-126.7V6266.789h3.419v-3.229h61.737v59.493Z",
-              "transform": "translate(536 -5839)"
+              "d": "M2656.536,6385.572v-61.73h-70.385v-59.423H2525v3.27h-3.269v78.461H2525V6355h-3.269v58.269h126.538v-21.731h5.192v-5.961Z",
+              "transform": "translate(-1467 -5839)"
             },
             "planInfo": {
               "area": 65,
-              "rooms": [
-                {
-                  "name": "room 1",
-                  "y": 3.1,
-                  "x": 3
-                },
-                {
-                  "name": "workstation",
-                  "y": 6.8,
-                  "x": 3
-                },
-                {
-                  "name": "W.C",
-                  "y": 2.7,
-                  "x": 1
-                }
-              ]
+              "rooms": null
             },
             "isAvailable": true
           },
           {
             "id": 19,
             "name": "19",
-            "type": "admin",
-            "unit": 2,
-            "plan": "admin-unit02",
+            "type": "resid",
+            "unit": null,
+            "plan": "shop-19",
             "shape": {
-              "d": "M294.249,6263.559H357.7v3.227h9.5v-3.227H495.226v3.227h3.419v145.7H457.234V6387.6H376.881v-36.283h-9.688v-6.838h-8.738l-.76,43.121H294.249Z",
-              "transform": "translate(536 -5839)"
+              "d": "M2477.69,6413.264h40.577v-58.077h-2.885v-9.039h2.885v-78.077h-2.885v-3.654H2387.114v3.654h-10v-3.654h-63.846V6389.61H2477.69Z",
+              "transform": "translate(-1467 -5839)"
             },
             "planInfo": {
               "area": 105,
-              "rooms": [
-                {
-                  "name": "room 1",
-                  "y": 3.25,
-                  "x": 2.7
-                },
-                {
-                  "name": "room 2",
-                  "y": 3.25,
-                  "x": 2.85
-                },
-                {
-                  "name": "workstation",
-                  "y": 6.8,
-                  "x": 6
-                },
-                {
-                  "name": "W.C",
-                  "y": 1.55,
-                  "x": 1.45
-                },
-                {
-                  "name": "kitchenette",
-                  "y": 1.55,
-                  "x": 1
-                }
-              ]
+              "rooms": null
             },
             "isAvailable": true
           }

@@ -92,11 +92,14 @@ export default class Unit {
         specsGrid.appendChild(item);
       });
     }
-    if (unit.type !== "shop") {
+    if (unit.type !== "shop" && this.floor.floor !== 10) {
       plan.appendChild(imageTagGenerator(planes[unit.plan]));
       plan3D.appendChild(imageTagGenerator(planes3D[unit.plan]));
     }
-    if (unit.type === "shop") {
+    if (unit.type === "shop" || this.floor.floor === 10) {
+      {
+        console.log({ floor: this.floor.floor });
+      }
       plan3D.classList.add(scss["shop--img"]);
       plan3D.appendChild(imageTagGenerator(shopPlans[floorNumber][unit.plan]));
     }
