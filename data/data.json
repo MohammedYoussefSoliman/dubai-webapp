@@ -2320,11 +2320,11 @@
           "viewBox": "0 0 1060 695"
         },
         "g": {
-          "transform": "translate(-815 -38)"
+          "transform": "translate(-815 -5)"
         },
         "image": {
           "xlink": "./assets/images/floor_plans/02.png",
-          "transform": "translate(815 38)",
+          "transform": "translate(815 5)",
           "width": 1060,
           "height": 695
         },
@@ -2340,8 +2340,8 @@
             "unit": null,
             "plan": "shop-01",
             "shape": {
-              "d": "M542.556,9887.429v-26.887h21.919v-59.326H499.6v81.537h3.215v4.676Z",
-              "transform": "translate(536 -9347)"
+              "d": "M2578.877,9872.207v-58.825h-61.1v2.925h-3.25v78.316h3.25v5.192h38.764v-27.608Z",
+              "transform": "translate(-1476 -9385)"
             },
             "planInfo": {
               "area": 14,
@@ -2356,8 +2356,8 @@
             "unit": null,
             "plan": "shop-02",
             "shape": {
-              "d": "M496.366,9804.981v77.884h-3.229v4.369h-202.5v-86.052h64.776v2.659h8.928v-2.659H493.136v3.8Z",
-              "transform": "translate(536 -9347)"
+              "d": "M2511.348,9894.431v-77.5h-3.077v-3.462H2379.425v2.692H2370v-2.692h-64.615v86.154H2370v-5.192h9.423v5.192h128.846v-5.192Z",
+              "transform": "translate(-1476 -9385)"
             },
             "planInfo": {
               "area": 40,
@@ -2372,8 +2372,8 @@
             "unit": null,
             "plan": "shop-03",
             "shape": {
-              "d": "M465.022,9891.034v82.252H290.829v-82.252h64.586v15.576h18.236v-15.576Z",
-              "transform": "translate(536 -9347)"
+              "d": "M2482.251,9903H2390v16h-20.25v-16H2305.5v81.75h176.75Z",
+              "transform": "translate(-1476 -9385)"
             },
             "planInfo": {
               "area": 32,
@@ -2388,8 +2388,8 @@
             "unit": null,
             "plan": "shop-04",
             "shape": {
-              "d": "M290.829,9976.7h204.8v63.466h-16.3v21.979H364.248v-3.457h-8.89v3.457H290.829Z",
-              "transform": "translate(536 -9347)"
+              "d": "M2305.5,9988.755h204.25v62.751h-16v22.25H2380v-3.25h-9.5v3.25h-65Z",
+              "transform": "translate(-1476 -9385)"
             },
             "planInfo": {
               "area": 40,
@@ -2404,8 +2404,8 @@
             "unit": null,
             "plan": "shop-05",
             "shape": {
-              "d": "M844.562,9930.028h59.515v23.213h8.89V9993h-68.4Z",
-              "transform": "translate(536 -9347)"
+              "d": "M2925.579,9965.585h-9.423v-23.847H2857.5v63.077h68.077Z",
+              "transform": "translate(-1476 -9385)"
             },
             "planInfo": {
               "area": 20,
@@ -2420,8 +2420,8 @@
             "unit": null,
             "plan": "shop-06",
             "shape": {
-              "d": "M922.1,9930.028h59.021v132.117H918.153v-3.457H915.93V9953.241H922.1Z",
-              "transform": "translate(536 -9347)"
+              "d": "M2936,9941.738h57.25v131.52H2930.5v-2.75h-2.25v-105.75H2936Z",
+              "transform": "translate(-1476 -9385)"
             },
             "planInfo": {
               "area": 20,
@@ -2436,8 +2436,8 @@
             "unit": null,
             "plan": "shop-07",
             "shape": {
-              "d": "M1050.27,9930.028H983.594v132.364h66.676v-44.2h-7.408v-24.694h7.408Z",
-              "transform": "translate(536 -9347)"
+              "d": "M3062.752,9941.738H2997v132.27h61.75v-3.5h2.75v-40.75h-7v-25.5h8.25Z",
+              "transform": "translate(-1476 -9385)"
             },
             "planInfo": {
               "area": 20,
@@ -2452,8 +2452,8 @@
             "unit": null,
             "plan": "shop-08",
             "shape": {
-              "d": "M1052.739,9930.028h66.182v132.356h-66.182v-43.709h7.9v-24.942h-7.9v-63.705",
-              "transform": "translate(536 -9347)"
+              "d": "M3131.752,9941.738v131.768h-63.5v-3.3h-2.707v-40.44h7.615v-24.946h-7.615v-63.079Z",
+              "transform": "translate(-1476 -9385)"
             },
             "planInfo": {
               "area": 20,
@@ -2468,8 +2468,8 @@
             "unit": null,
             "plan": "shop-09",
             "shape": {
-              "d": "M1122.872,9930.028h51.118v23.7h14.076v108.163h-65.194Z",
-              "transform": "translate(536 -9347)"
+              "d": "M3185.193,9941.738h-51.538v132.109h63.077v-3.654h2.885v-105h-14.423Z",
+              "transform": "translate(-1476 -9385)"
             },
             "planInfo": {
               "area": 20,
@@ -2484,8 +2484,8 @@
             "unit": null,
             "plan": "shop-10",
             "shape": {
-              "d": "M1258.94,9930.028h-65.688v24.193h-1.482v108.41h134.093v-64.7H1258.94Z",
-              "transform": "translate(536 -9347)"
+              "d": "M3205.193,9941.738v22.109h-1.731v106.538h3.077v3.462h126.923v-3.462h2.885v-60.77h-65.769v-67.878Z",
+              "transform": "translate(-1476 -9385)"
             },
             "planInfo": {
               "area": 20,
@@ -2500,8 +2500,8 @@
             "unit": null,
             "plan": "shop-11",
             "shape": {
-              "d": "M1325.863,9884.089h-64.206v110.633h39.018v-15.558h25.189Z",
-              "transform": "translate(536 -9347)"
+              "d": "M3273.847,9895.771h62.308v38.27h-2.885v8.846h2.885v47.692h-25v15.577h-37.308Z",
+              "transform": "translate(-1476 -9385)"
             },
             "planInfo": {
               "area": 31,
@@ -2516,8 +2516,8 @@
             "unit": null,
             "plan": "shop-12",
             "shape": {
-              "d": "M1261.657,9769.258h64.206v110.88h-64.206Z",
-              "transform": "translate(536 -9347)"
+              "d": "M3336.347,9892.5h-62.885v-85.576h62.885Z",
+              "transform": "translate(-1476 -9385)"
             },
             "planInfo": {
               "area": 16,
@@ -2532,8 +2532,8 @@
             "unit": null,
             "plan": "shop-12",
             "shape": {
-              "d": "M1261.657,9542.807h63.959v108.9h-63.959Z",
-              "transform": "translate(536 -9347)"
+              "d": "M3273.847,9555.963h59.615v3.846h3.269l-.769,88.27h-2.5v8.847h3.269v29.615h-62.885Z",
+              "transform": "translate(-1476 -9385)"
             },
             "planInfo": {
               "area": 16,
@@ -2548,8 +2548,8 @@
             "unit": null,
             "plan": "shop-14",
             "shape": {
-              "d": "M1261.657,9406h63.959v133.6h-63.959v-8.149h-18.768v18.274h16.3v19.509H1191.03v-94.581h70.627Z",
-              "transform": "translate(536 -9347)"
+              "d": "M3336.731,9550.578V9422.5h-3.077v-2.692h-60.192v68.654h-70v62.115h3.462v8.846h-3.462v22.309H3270v-18.27h-15.577v-18.27h19.038v7.115h60.192v-1.73Z",
+              "transform": "translate(-1476 -9385)"
             },
             "planInfo": {
               "area": 17,
@@ -2564,8 +2564,8 @@
             "unit": null,
             "plan": "shop-15",
             "shape": {
-              "d": "M1075.211,9478.106h48.649v-3.7h64.7v64.947h-81.246v-16.3h-19.509v16.3h-12.594Z",
-              "transform": "translate(536 -9347)"
+              "d": "M3200.193,9550.193v-62.115H3135.77v3.462h-49.615v61.346h14.038v-16.153h18.654v16.153h78.462v-2.692Z",
+              "transform": "translate(-1476 -9385)"
             },
             "planInfo": {
               "area": 17,
@@ -2580,8 +2580,8 @@
             "unit": null,
             "plan": "shop-16",
             "shape": {
-              "d": "M951.888,9406.045l43.121-.949v16.526h22.225V9539.4H951.888Z",
-              "transform": "translate(536 -9347)"
+              "d": "M3029.438,9435.948H3007.4v-16.124h-42.9v132.84h64.941Z",
+              "transform": "translate(-1476 -9385)"
             },
             "planInfo": {
               "area": 30,
@@ -2596,8 +2596,8 @@
             "unit": null,
             "plan": "shop-17",
             "shape": {
-              "d": "M949.038,9406.037V9539.2H777.315V9390.461H909.906v15.576Z",
-              "transform": "translate(536 -9347)"
+              "d": "M2961.152,9419.824h-30.577v3.439h-9.808v-9.808h1.731v-8.462H2790.383V9552.3H2800v-2.311h8.579v2.311h112.87v-2.311h9.467v2.311h30.621Z",
+              "transform": "translate(-1476 -9385)"
             },
             "planInfo": {
               "area": 17,
@@ -2612,8 +2612,8 @@
             "unit": null,
             "plan": "shop-18",
             "shape": {
-              "d": "M777.315,9543.127h9.118v2.776h9.352v-2.776H895v111.346H777.315Z",
-              "transform": "translate(536 -9347)"
+              "d": "M2790.383,9555.567h9.807v3.462h8.461v-3.462h99.615v110.77H2790.383Z",
+              "transform": "translate(-1476 -9385)"
             },
             "planInfo": {
               "area": 21,

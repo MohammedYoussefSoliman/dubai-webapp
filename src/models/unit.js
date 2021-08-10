@@ -97,9 +97,6 @@ export default class Unit {
       plan3D.appendChild(imageTagGenerator(planes3D[unit.plan]));
     }
     if (unit.type === "shop" || this.floor.floor === 10) {
-      {
-        console.log({ floor: this.floor.floor });
-      }
       plan3D.classList.add(scss["shop--img"]);
       plan3D.appendChild(imageTagGenerator(shopPlans[floorNumber][unit.plan]));
     }
@@ -128,7 +125,6 @@ export default class Unit {
       path.setAttribute("id", previewUnit.id);
       path.setAttributeNS(null, "d", `${previewUnit.shape.d}`);
       path.setAttributeNS(null, "transform", `${previewUnit.shape.transform}`);
-      console.log(floorNumber);
       if (floorNumber == 0) {
         const pathOutoor = document.createElementNS(xmlns, "path");
         pathOutoor.classList.add(scss["preview--outdoor"]);
