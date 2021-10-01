@@ -16,6 +16,7 @@ module.exports = {
     // publicPath: "dist/",
   },
   mode: "none",
+  devtool: "eval-source-map",
   module: {
     rules: [
       {

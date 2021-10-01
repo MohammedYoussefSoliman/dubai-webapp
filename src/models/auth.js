@@ -24,6 +24,10 @@ export default class Auth {
   get window() {
     const expireDate = moment(this.expirationDate);
     const nowDate = moment();
-    return nowDate.isBefore(expireDate);
+    if (this.expirationDate === "infinity") {
+      return true;
+    } else {
+      return nowDate.isBefore(expireDate);
+    }
   }
 }
