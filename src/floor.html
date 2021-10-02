@@ -4,29 +4,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ronza App - floor</title>
+    <title>Dubai developments floor</title>
   </head>
   <body>
-    <div id="app">
-      <div id="navigation">
-        <div id="navigation__header"></div>
-        <div id="navigation__search">
-          <input
-            id="search_unit"
-            name="search_unit"
-            type="text"
-            placeholder="Enter unit number"
+    <div id="app" class="floor">
+      <header class="floor--header">
+        <button type="button" id="search_button" class="search--button">
+          <img draggable="false" src="./assets/svgs/searchIcon.svg" />
+        </button>
+      </header>
+      <footer class="floor--footer">
+        <div class="ordo floor--ordo">
+          <img
+            class="ordo--logo"
+            draggable="false"
+            src="./assets/images/ordochao-logo.png"
           />
+          <h4>design & development</h4>
         </div>
-        <div id="navigation__footer">
-          <div id="back"></div>
-          <div id="counter"></div>
-        </div>
-      </div>
-      <div id="content">
-        <div id="shape"></div>
-        <div id="units"></div>
-      </div>
+      </footer>
     </div>
   </body>
 </html>

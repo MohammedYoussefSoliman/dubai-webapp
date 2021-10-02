@@ -1,6 +1,6 @@
-import scss from "../styles.module.scss";
+import "../styles.scss";
 import moment from "moment";
-import { imageTagGenerator } from "../helpers";
+import { imageTagGenerator } from "../functions";
 import error from "../assets/svgs/error.svg";
 
 export default class Auth {
@@ -13,8 +13,8 @@ export default class Auth {
     const app = document.getElementById("app");
     const main = document.createElement("main");
     const header = document.createElement("h2");
-    main.classList.add(scss["expired"]);
-    header.classList.add(scss["expired--message"]);
+    main.classList.add("expired");
+    header.classList.add("expired--message");
     main.appendChild(imageTagGenerator(error));
     main.appendChild(header);
     header.innerText =

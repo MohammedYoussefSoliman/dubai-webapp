@@ -4,17 +4,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ronza App</title>
+    <title>Dubai developments App</title>
   </head>
   <body>
-    <div id="app">
-      <div id="navigation">
-        <div id="navigation__header"></div>
-        <div id="navigation__anchors"></div>
-        <div id="navigation__footer">
-          <div id="counter"></div>
+    <div id="app" class="building">
+      <header class="header">
+        <nav class="nav">
+          <div class="nav--banner">
+            <img draggable="false" src="./assets/images/logo-light.png" />
+          </div>
+          <button type="button" id="search_button" class="nav--search--button">
+            <img draggable="false" src="./assets/svgs/searchIcon.svg" />
+          </button>
+        </nav>
+      </header>
+      <footer>
+        <div class="navigation" id="navigation"></div>
+        <div class="ordo">
+          <img
+            class="ordo--logo"
+            draggable="false"
+            src="./assets/images/ordochao-logo.png"
+          />
+          <h4>design & development</h4>
         </div>
-      </div>
+      </footer>
     </div>
   </body>
 </html>

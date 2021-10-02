@@ -19,8 +19,123 @@
 
 // app page
 
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.floor--header {
+  padding: 2rem;
+  .search--button {
+    @include center-content-x;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: 2px solid $secondary-color;
+    color: $primary-color;
+    background-color: $primary-color;
+    outline: none;
+    cursor: pointer;
+    img {
+      width: 24px;
+    }
+  }
+}
+
+.nav {
+  width: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0 0 50px 0;
+  padding: 3rem;
+  background-color: $primary-color;
+  &--search--button {
+    @include center-content-x;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    border: 2px solid $secondary-color;
+    background-color: $primary-color;
+    outline: none;
+    cursor: pointer;
+  }
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  &.floor--footer {
+    width: unset;
+    right: 0;
+    padding: 1rem;
+    z-index: 0;
+  }
+  .navigation {
+    margin-left: 42px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    &--button {
+      @include center-content-x;
+      min-height: 60px;
+      min-width: 190px;
+      padding: 0.5rem 2rem;
+      border-radius: 30px;
+      outline: none;
+      border: 3px solid $secondary-color;
+      background-color: $primary-color;
+      color: $secondary-color;
+      cursor: pointer;
+      font-size: 28px;
+      font-weight: 600;
+      text-transform: capitalize;
+      &.active {
+        background-color: $secondary-color;
+        color: $primary-color;
+      }
+      &:hover {
+        background-color: #000000;
+      }
+    }
+  }
+  .ordo {
+    display: flex;
+    gap: 1.25rem;
+    align-items: center;
+    &--logo {
+      height: 100px;
+    }
+    h4 {
+      color: $white;
+      font-size: 28px;
+      font-weight: 500;
+      max-width: 170px;
+      text-transform: capitalize;
+    }
+    &.floor--ordo {
+      margin-left: auto;
+      .ordo--logo {
+        height: 75px;
+      }
+      h4 {
+        font-size: 24px;
+        font-weight: 400;
+        max-width: 160px;
+      }
+    }
+  }
+}
+
 .header--label {
-  font-family: $barlow;
   font-size: 1.5rem;
   font-weight: 300;
   color: #ffffff;
@@ -42,123 +157,12 @@
   }
 }
 
-.anchor {
-  @include center-content-x;
-  width: 100px;
-  height: 100px;
-  border: 1px solid $secondary-color;
-  border-radius: 50%;
-  cursor: pointer;
-  a {
-    font-family: $barlow;
-    font-size: 2.5rem;
-    font-weight: 600;
-    color: #ffffff;
-  }
-  &.active {
-    border: 6px solid #775430;
-    background-color: #ffffff;
-    a {
-      color: $secondary-color;
-    }
-  }
-}
-
-.header {
-  z-index: 30;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  img {
-    max-width: 200px;
-  }
-}
-
-.footer {
-  z-index: 30;
-  display: flex;
-  justify-content: space-between;
-  img {
-    max-width: 150px;
-  }
-}
-
-.back {
-  align-self: flex-end;
-  &--list {
-    display: flex;
-    &__item {
-      position: relative;
-      &::after {
-        content: "/";
-        font-size: 1.5rem;
-        color: #ffffff;
-        font-weight: 400;
-        padding-right: 0.5rem;
-      }
-      &:last-child {
-        &::after {
-          content: none;
-        }
-        a {
-          padding-right: 0;
-        }
-      }
-      a {
-        font-family: $barlow;
-        font-size: 1.5rem;
-        font-weight: 400;
-        padding-right: 0.5rem;
-        color: #ffffff;
-      }
-      &.active {
-        a {
-          color: $secondary-color;
-          font-weight: 400;
-          cursor: unset;
-        }
-      }
-    }
-  }
-}
-
 .building {
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
   &--shape {
-    width: 55vw;
-  }
-  &--navigation {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 47vw;
-    height: 100%;
-    background-color: #34332f;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 2rem;
-    &::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      z-index: 10;
-      background: linear-gradient(
-        0deg,
-        rgba(39, 36, 89, 0.07) 0%,
-        rgba(240, 81, 35, 0.07) 100%
-      );
-    }
-    &__anchors {
-      display: grid;
-      grid-template-columns: repeat(5, 1fr);
-      gap: 2rem;
-      z-index: 30;
-    }
+    width: 100%;
   }
 }
 
@@ -166,259 +170,18 @@
   width: 100vw;
   height: 100vh;
   display: flex;
-  &--navigation {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 40vw;
-    height: 100%;
-    background-color: #34332f;
+  .content--wrapper {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 2rem;
-    &::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      z-index: 10;
-      background: linear-gradient(
-        0deg,
-        rgba(39, 36, 89, 0.07) 0%,
-        rgba(240, 81, 35, 0.07) 100%
-      );
-    }
-    &__search {
-      width: 70%;
-      z-index: 30;
-      h3 {
-        color: $orange;
-        font-size: 3.5rem;
-        font-weight: 800;
-        margin-bottom: 1rem;
-      }
-      h4 {
-        display: none;
-        color: $red;
-        font-size: 1.3rem;
-        font-weight: 600;
-        margin-top: 0.5rem;
-        &.error {
-          display: block;
-        }
-      }
-      input {
-        width: 100%;
-        padding: 1.5rem;
-        font-size: 2rem;
-        font-weight: 700;
-        color: $secondary-color;
-        border: 2px solid $secondary-color;
-        outline: none;
-        background: transparent;
-        &::placeholder {
-          color: $secondary-color;
-          font-size: 2rem;
-          font-weight: 300;
-        }
-        &:focus {
-          &::placeholder {
-            opacity: 0;
-          }
-        }
-      }
-    }
-  }
-  &--content {
-    width: 60vw;
-    position: absolute;
-    right: 0;
-    padding: 2rem;
-    &__shape {
-      @include center-content-y;
-      width: 100%;
-      height: 60vh;
-      margin-bottom: 1.5rem;
-    }
-    &__units {
-      width: 100%;
-      display: grid;
-      grid-template-columns: repeat(5, 1fr);
-      gap: 2rem;
-    }
-    &.ground {
-      .floor--content__shape {
-        height: 52vh;
-      }
-      .floor--content__units {
-        gap: 1rem;
-      }
-    }
-  }
-}
-.unit {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
-  height: 50px;
-  border-radius: 25px;
-  background: #34332f;
-  cursor: pointer;
-  a,
-  span {
-    font-family: $barlow;
-    font-size: 1rem;
-    font-weight: 400;
-    color: #ffffff;
-    text-transform: uppercase;
-    &.number {
-      color: $secondary-color;
-      margin-right: 1rem;
-    }
-  }
-  &.active {
-    background: #ffffff;
-    border: 6px solid #fdeedf;
-    a {
-      color: $secondary-color;
-      font-weight: 400;
-      cursor: unset;
-      color: #34332f;
-    }
-  }
-  &.disabled {
-    filter: grayscale(1);
-    background: #ddd;
-    color: #63625f;
-    cursor: unset;
-  }
-}
-
-.unitPage {
-  &--content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100vh;
-    &__plan {
-      flex: 2;
-      display: flex;
-      justify-content: center;
-      margin-bottom: 2rem;
-      &.shop--img {
-        img {
-          max-width: 400px !important;
-        }
-      }
-      img {
-        width: 80%;
-        max-height: 60vh;
-        object-fit: contain;
-      }
-    }
-    &__map {
-      flex: 1;
-      display: flex;
-    }
-    .map--unit {
-      flex: 1;
-      display: flex;
-      h3 {
-        font-size: 3.2rem;
-        font-weight: 700;
-        color: $secondary-color;
-        margin-right: 2rem;
-        text-transform: uppercase;
-        &.alternative {
-          color: #9e9e9e;
-        }
-      }
-    }
-    .map--preview {
-      flex: 1;
-      max-height: 275px;
-      .preview {
-        height: 100%;
-        &--path {
-          fill: #dfdfdf;
-          &.active--blinker {
-            fill: $orange;
-            animation: blinker 1s ease-in-out infinite;
-          }
-        }
-        &--outdoor {
-          fill: #d8f6dc;
-          &.active--blinker {
-            fill: #6e00ff;
-            animation: blinker 1s ease-in-out infinite;
-          }
-        }
-      }
-    }
-  }
-}
-
-.specs {
-  width: 100%;
-  &--area {
     width: 100%;
-    display: flex;
-    align-items: center;
-    margin-bottom: 2rem;
-    h3 {
-      font-size: 1.8rem;
-      font-weight: 600;
-      color: $secondary-color;
-      margin-right: 1rem;
-    }
-    p {
-      font-size: 1.8rem;
-      font-weight: 400;
-      color: #ffffff;
-    }
-  }
-  &--grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 2rem;
-    row-gap: 1rem;
-    &__item {
-      display: flex;
-      justify-content: space-between;
-      h3 {
-        font-size: 1.5rem;
-        font-weight: 600;
-        color: $secondary-color;
-        margin-right: 1rem;
-        line-height: 1.6;
-        &::first-letter {
-          text-transform: uppercase;
-        }
-      }
-      p {
-        font-size: 1.5rem;
-        font-weight: 400;
-        color: #ffffff;
-        margin-bottom: 0.2rem;
-      }
+    flex-direction: row-reverse;
+    padding: 1rem;
+    svg {
+      height: 100%;
     }
   }
 }
 
-.plan {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  img {
-    width: 80%;
-    max-height: 50vh;
-    object-fit: contain;
-  }
-}
+// authentication styles
 
 .expired {
   position: absolute;
@@ -438,6 +201,115 @@
     font-size: 1.5rem;
     font-weight: 600;
     color: #14687b;
+  }
+}
+
+// the search modal
+
+.modal-overlay {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 21px;
+  padding: 4rem;
+  width: 40%;
+  background: $primary-color;
+  border-radius: 20px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+  &--body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    &__radios {
+      display: flex;
+      gap: 2rem;
+      margin-bottom: 6px;
+      & > * {
+        flex: 1;
+      }
+      .radio {
+        position: relative;
+        display: block;
+        .radio--button {
+          @include buttonStyle($active: false);
+          width: 100%;
+        }
+        &.selected {
+          .radio--button {
+            @include buttonStyle($active: true);
+          }
+        }
+        .radio--input {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          opacity: 0;
+          cursor: pointer;
+        }
+      }
+    }
+    &__search {
+      .search--input {
+        width: 100%;
+        border: 2px solid $secondary-color;
+        background-color: $primary-color;
+        color: $secondary-color;
+        border-radius: 15px;
+        padding: 21px;
+        font-size: 24px;
+        &:focus {
+          outline: none;
+        }
+        &::placeholder {
+          font-size: 18px;
+          font-weight: 300;
+          color: $secondary-color;
+        }
+      }
+      .error--block {
+        color: $red;
+        display: none;
+      }
+      &.error {
+        .search--input {
+          border-color: $red;
+        }
+        .error--block {
+          display: block;
+        }
+      }
+    }
+    &__controls {
+      display: flex;
+      gap: 2rem;
+      & > * {
+        flex: 1;
+      }
+      .submit--button {
+        @include buttonStyle($active: true);
+      }
+      .cancel--button {
+        @include buttonStyle($active: false);
+      }
+    }
   }
 }
 

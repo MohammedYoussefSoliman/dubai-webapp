@@ -28,7 +28,7 @@ $accent: #dc9c70;
 
 html,
 body {
-  overflow: hidden;
+  // overflow: hidden;
 }
 
 *::before,
@@ -49,7 +49,6 @@ h4,
 h5,
 h6 {
   margin: 0;
-  font-weight: 400;
 }
 
 ul {
@@ -69,6 +68,7 @@ body {
   width: 100%;
   font-family: $barlow;
   white-space: normal;
+  background: $primary-color;
 }
 
 h1 {
@@ -98,7 +98,7 @@ h1 {
 // utility classes
 
 .path {
-  fill: $orange;
+  fill: $secondary-color;
   opacity: 0;
   cursor: pointer;
   &:hover {

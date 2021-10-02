@@ -1,11 +1,37 @@
+@import "./globals";
+
 @mixin center-content-x {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @mixin center-content-y {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin buttonStyle(
+  $active: false,
+  $radius: 15px,
+  $padding: 0.6rem 1.2rem,
+  $fontSize: 18px
+) {
+  @include center-content-x;
+  border: 2px solid $secondary-color;
+  border-radius: $radius;
+  padding: $padding;
+  min-height: 50px;
+  outline: none;
+  cursor: pointer;
+  font-size: $fontSize;
+  font-weight: 500;
+  @if ($active) {
+    background-color: $secondary-color;
+    color: $primary-color;
+  } @else {
+    background-color: $primary-color;
+    color: $secondary-color;
+  }
 }

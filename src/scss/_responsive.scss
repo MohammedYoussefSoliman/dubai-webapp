@@ -1,542 +1,94 @@
-
-
-
-
-
-
-
 // Media queries
 
 @mixin breakpoints($point) {
-    @if $point == 4k {
-        @media screen and (max-width: 3840px) and (min-width: 2049px){
-            @content;
-        }
+  @if $point == 4k {
+    @media screen and (max-width: 3840px) and (min-width: 2049px) {
+      @content;
     }
-    @if $point == 2k {
-        @media screen and (max-width: 2048px) and (min-width: 1921px){
-            @content;
-        }
+  }
+  @if $point == 2k {
+    @media screen and (max-width: 2048px) and (min-width: 1921px) {
+      @content;
     }
-    @if $point == largescreens {
-        @media screen and (max-width: 1920px) and (min-width: 1367px) {
-            @content;
-        }
+  }
+  @if $point == largescreens {
+    @media screen and (max-width: 1920px) and (min-width: 1367px) {
+      @content;
     }
-
-    @else if $point == midscreens {
-        @media screen and (max-width: 1440px) {
-            @content;
-        }
+  } @else if $point == midscreens {
+    @media screen and (max-width: 1440px) {
+      @content;
     }
-    @else if $point == laptop {
-        @media screen and (max-width: 1280px) {
-            @content;
-        }
+  } @else if $point == laptop {
+    @media screen and (max-width: 1280px) {
+      @content;
     }
-
-    @else if $point == ipad {
-        @media screen and (max-width: 1024px) {
-            @content;
-        }
+  } @else if $point == ipad {
+    @media screen and (max-width: 1024px) {
+      @content;
     }
-    @else if $point == tablet {
-        @media screen and (max-width: 768px) {
-            @content;
-        }
+  } @else if $point == tablet {
+    @media screen and (max-width: 768px) {
+      @content;
     }
-    @else if $point == largmobile {
-        @media screen and (max-width: 560px) {
-            @content;
-        }
+  } @else if $point == largmobile {
+    @media screen and (max-width: 560px) {
+      @content;
     }
-    @else if $point == smallmobile {
-        @media screen and (max-width: 360px) {
-            @content;
-        }
+  } @else if $point == smallmobile {
+    @media screen and (max-width: 360px) {
+      @content;
     }
+  }
 }
 
 @include breakpoints(4k) {
-
-    .landing {
-        &-content {
-            .upper .main-logo {
-                width: 50%;
-            }
-            .upper p {
-                font-size: 3.8rem;
-            }
-            .lower {
-                &-nav {
-                    margin-bottom: 5rem;
-                    &-item {
-                        a {
-                            padding: 2.5rem;
-                            font-size: 3rem;
-                        }
-                    }
-                }
-                &-social-icons {
-                    gap: 2rem;
-                    > * {
-                        width: 80px;
-                        height: 80px;
-                    }
-                }
-
-            }
-        }
-    }
-
-    .mall {
-        .side-nav {
-            &.left-side {
-                padding: 3rem 2rem;
-                .logo {
-                    max-width: unset;
-                }
-                .floors-order {
-                    a {
-                        color: $white;
-                        font-size: 3rem;
-                        margin-bottom: 3rem;
-                    }
-                }
-                .counter {
-                    h2 {
-                        font-size: 15rem;
-                    }
-                }
-            }
-            .floor-lvl {
-                h2 {
-                    font-size: 5rem;
-                    sup {
-                        font-size: 2.25rem;
-                    }
-                }
-            }
-        }
-    }
-
-    .floor {
-        > * {
-            padding: 3rem;
-        }
-        &-content {
-            &-left {
-                .unit-search {
-                    h3 {
-                        font-size: 7rem;
-                        margin-bottom: 2rem;
-                    }
-                    h4 {
-                        font-size: 2.6rem;
-                        margin-top: 1rem;
-                    }
-                    input {
-                        padding: 2rem;
-                        font-size: 4rem;
-                        &::placeholder {
-                            font-size: 4rem;
-                        }
-                    }
-                }
-
-            }
-            &-right {
-                padding-right: 2rem;
-                a {
-                    font-size: calc(1.7rem * 2.6);
-                    margin: 2.4rem 0;
-                }
-            }
-        }
-    }
-
-    .logo {
-        max-width: calc(150px * 3);
-        img {
-            width: 100%;
-        }
-    }
-
-    .footer-nav {
-        .back {
-            svg {
-                width: calc(32.635px * 2);
-                height: calc(26.07px * 2);
-            }
-        }
-        &-list {
-            &-item {
-                &::after {
-                    font-size: calc(1.3125rem * 2.6);
-                    padding-right: 1.25rem;
-                }
-                a {
-                    font-size: calc(1.3125rem * 2.6);
-                    padding-right: 1.25rem;
-    
-                }
-                &.active {
-                    a {
-                        color: $orange;
-                        font-weight: 600;
-                        cursor: unset;
-                    }
-                }
-            }
-        }
-    }
-
-    .unit {
-        &-content {
-            padding: 3rem;
-            &-left {
-                .unit-plan {
-                    height: 700px;
-                }
-                .unit-details {
-                    .details-container {
-                        .details {
-                            margin-left: 0;
-                            width: calc(210px * 3.6);
-                            height: calc(160px * 3.6);
-                            img {
-                                height: 100%;
-                            }
-                            .unit-prev {
-                                width: calc(105px * 3.6);
-                                height: calc(158.511px * 3.6);
-                                top: 0;
-                                left: 0;
-                            }
-                            &-unit-info {
-                                h5 {
-                                    font-size: 3.8rem;
-                                }
-                                &-upper {
-                                    margin-top: 7rem;
-                                }
-                                &-lower {
-                                    margin-top: 9rem;
-                                    .arc {
-                                        display: flex;
-                                        justify-content: center;
-                                        align-items: center;
-                                        opacity: 0;
-                                        svg {
-                                            margin-right: 1rem;
-                                            width: calc(31.593px * 3.6);
-                                            height: calc(15.58px * 3.6);
-                                        }
-                                        &.available {
-                                            opacity: 1;
-                                        }
-                                    }
-                                    #unit-dimension {
-                                        margin-bottom: 1rem;
-                                    }
-                                }
-                            }
-                        }
-                        .unit-name {
-                            color: $orange;
-                            font-size: 9rem;
-                            font-weight: 800;
-                            transform: rotate(90deg);
-                            white-space: nowrap;
-                            align-self: self-start;
-                            width: 100px;
-                        }
-                    }
-                }
-            }
-        }
-    }
-  
 }
 
 @include breakpoints(2k) {
-    .landing {
-        &-content {
-            .upper .main-logo {
-                width: 50%;
-            }
-            .upper p {
-                font-size: 2.2rem;
-            }
-            .lower {
-                &-nav {
-                    margin-bottom: 3rem;
-                    &-item {
-                        a {
-                            padding: 2rem;
-                            font-size: 2rem;
-                        }
-                    }
-                }
-                &-social-icons {
-                    gap: 1.5rem;
-                    > * {
-                        width: 60px;
-                        height: 60px;
-                    }
-                }
-
-            }
-        }
-    }
-
-    .mall {
-        .side-nav {
-            &.left-side {
-                padding: 2.25rem 1.2rem;
-                .logo {
-                    max-width: unset;
-                }
-                .floors-order {
-                    a {
-                        color: $white;
-                        font-size: 2rem;
-                        margin-bottom: 2rem;
-                    }
-                }
-                .counter {
-                    h2 {
-                        font-size: 10rem;
-                    }
-                }
-            }
-            .floor-lvl {
-                h2 {
-                    font-size: 3rem;
-                    sup {
-                        font-size: 1.8rem;
-                    }
-                }
-            }
-        }
-    }
-
-    .floor {
-        > * {
-            padding: 2.25rem;
-        }
-        &-content {
-            &-left {
-                .unit-search {
-                    h3 {
-                        font-size: 3.5rem;
-                        margin-bottom: 1.2rem;
-                    }
-                    h4 {
-                        font-size: 1.8rem;
-                        margin-top: 0.6rem;
-                    }
-                    input {
-                        padding: 1.6rem;
-                        font-size: 3rem;
-                        &::placeholder {
-                            font-size: 3rem;
-                        }
-                    }
-                }
-
-            }
-            &-right {
-                padding-right: 1.5rem;
-                a {
-                    font-size: calc(1.7rem * 1.6);
-                    margin: 1.6rem 0;
-                }
-            }
-        }
-    }
-
-    .logo {
-        max-width: calc(150px * 2);
-    }
-
-    .footer-nav {
-        .back {
-            svg {
-                width: calc(32.635px * 1.5);
-                height: calc(26.07px * 1.5);
-            }
-        }
-        &-list {
-            &-item {
-                &::after {
-                    font-size: calc(1.3125rem * 1.6);
-                    padding-right: 0.65rem;
-                }
-                a {
-                    font-size: calc(1.3125rem * 1.6);
-                    padding-right: 0.65rem;
-    
-                }
-            }
-        }
-    }
-
-    .unit {
-        &-content {
-            padding: 2rem;
-            &-left {
-                .unit-plan {
-                    height: 500px;
-                }
-                .unit-details {
-                    .details-container {
-                        .details {
-                            margin-left: 0;
-                            width: calc(210px * 2.4);
-                            height: calc(160px * 2.4);
-                            img {
-                                height: 100%;
-                            }
-                            .unit-prev {
-                                width: calc(105px * 2.4);
-                                height: calc(158.511px * 2.4);
-                                top: 0;
-                                left: 0;
-                            }
-                            &-unit-info {
-                                h5 {
-                                    font-size: 2.6rem;
-                                }
-                                &-upper {
-                                    margin-top: 5rem;
-                                }
-                                &-lower {
-                                    margin-top: 7rem;
-                                    .arc {
-                                        display: flex;
-                                        justify-content: center;
-                                        align-items: center;
-                                        opacity: 0;
-                                        svg {
-                                            margin-right: 1rem;
-                                            width: calc(31.593px * 2.4);
-                                            height: calc(15.58px * 2.4);
-                                        }
-                                        &.available {
-                                            opacity: 1;
-                                        }
-                                    }
-                                    #unit-dimension {
-                                        margin-bottom: 0.6rem;
-                                    }
-                                }
-                            }
-                        }
-                        .unit-name {
-                            font-size: 5rem;
-                            width: 100px;
-                        }
-                    }
-                }
-            }
-        }
-    }
-  
 }
 @include breakpoints(largescreens) {
-
-
-    .logo {
-        max-width: calc(150px * 1.2);
-    }
-
-    .unit {
-        &-content {
-            padding: 2rem;
-            &-left {
-                .unit-plan {
-                    height: 320px;
-                }
-                .unit-details {
-                    .details-container {
-                        .details {
-                            margin-left: 0;
-                            width: calc(210px * 1.6);
-                            height: calc(160px * 1.6);
-                            img {
-                                height: 100%;
-                            }
-                            .unit-prev {
-                                width: calc(105px * 1.6);
-                                height: calc(158.511px * 1.6);
-                                top: 0;
-                                left: 0;
-                            }
-                            &-unit-info {
-                                margin-right: 1rem;
-                                h5 {
-                                    font-size: 1.6rem;
-                                }
-                                &-upper {
-                                    margin-top: 3rem;
-                                }
-                                &-lower {
-                                    margin-top: 5rem;
-                                    .arc {
-                                        display: flex;
-                                        justify-content: center;
-                                        align-items: center;
-                                        opacity: 0;
-                                        svg {
-                                            margin-right: 0.25rem;
-                                            width: calc(31.593px * 1.6);
-                                            height: calc(15.58px * 1.6);
-                                        }
-                                        &.available {
-                                            opacity: 1;
-                                        }
-                                    }
-                                    #unit-dimension {
-                                        margin-bottom: 0.3rem;
-                                    }
-                                }
-                            }
-                        }
-                        .unit-name {
-                            font-size: 5rem;
-                            width: 70px;
-                        }
-                    }
-                }
-            }
-        }
-    }
-  
+  .modal {
+    width: 40%;
+    min-width: 550px;
+  }
 }
 
 @include breakpoints(laptop) {
-    .mall {
-
-    }
-  
+  .modal {
+    width: 40%;
+    min-width: 500px;
+    padding: 3rem;
+  }
 }
 
-
 @include breakpoints(ipad) {
-
-  
+  .modal {
+    width: 60%;
+    min-width: 500px;
+    padding: 3rem;
+  }
 }
 
 @include breakpoints(tablet) {
-   
+  .nav {
+    width: 480px;
+    padding: 2rem;
+    border-radius: 0 0 35px 0;
+  }
+  .modal {
+    width: 90%;
+    padding: 2rem;
+  }
 }
 
 @include breakpoints(largmobile) {
-   
+  .nav {
+    width: 100%;
+    padding: 2rem;
+    border-radius: 0;
+  }
 }
 
 @include breakpoints(smallmobile) {
-
-    
 }

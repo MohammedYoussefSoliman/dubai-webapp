@@ -2,13 +2,12 @@ const path = require("path");
 const TerserPlugin = require("terser-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const { Chunk } = require("webpack");
+const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   entry: {
     building: "./src/index.js",
     floor: "./src/floor.js",
-    unit: "./src/unit.js",
   },
   output: {
     filename: "[name].js",
@@ -16,7 +15,8 @@ module.exports = {
     // publicPath: "dist/",
   },
   mode: "none",
-  devtool: "eval-source-map",
+  // target: "node",
+  devtool: "eval",
   module: {
     rules: [
       {
@@ -30,6 +30,11 @@ module.exports = {
         generator: {
           filename: "images/[hash][ext][query]",
         },
+      },
+      {
+        test: /\.js$/,
+        enforce: "pre",
+        use: ["source-map-loader"],
       },
       {
         test: /\.html$/i,
@@ -65,6 +70,14 @@ module.exports = {
           },
         },
       },
+      // {
+      //   test: /\.json$/i,
+      //   use: [
+      //     {
+      //       loader: "json-loader",
+      //     },
+      //   ],
+      // },
     ],
   },
   plugins: [
@@ -82,10 +95,13 @@ module.exports = {
       template: "./src/floor.html",
       chunks: ["floor"],
     }),
-    new HtmlWebpackPlugin({
-      filename: "unit.html",
-      template: "./src/unit.html",
-      chunks: ["unit"],
-    }),
+    // new CopyPlugin({
+    //   patterns: [
+    //     {
+    //       from: path.resolve(__dirname, "data/data.json"),
+    //       to: path.resolve(__dirname, "dist", "data/data.json"),
+    //     },
+    //   ],
+    // }),
   ],
 };
