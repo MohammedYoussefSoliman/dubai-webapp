@@ -29,6 +29,7 @@
 
 .floor--header {
   padding: 2rem;
+  position: fixed;
   .search--button {
     @include center-content-x;
     width: 60px;
@@ -124,10 +125,10 @@ footer {
     &.floor--ordo {
       margin-left: auto;
       .ordo--logo {
-        height: 75px;
+        height: 60px;
       }
       h4 {
-        font-size: 24px;
+        font-size: 21px;
         font-weight: 400;
         max-width: 160px;
       }
@@ -174,10 +175,30 @@ footer {
     display: flex;
     width: 100%;
     flex-direction: row-reverse;
+    gap: 2rem;
     padding: 1rem;
     svg {
       height: 100%;
     }
+  }
+}
+
+.loading--page {
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  background: $secondary-color;
+  @include center-content-y;
+  gap: 1rem;
+  &__img {
+    width: 250px;
+  }
+  &__text {
+    font-size: 2rem;
+    font-weight: 700;
+    color: $primary-color;
   }
 }
 
@@ -201,6 +222,86 @@ footer {
     font-size: 1.5rem;
     font-weight: 600;
     color: #14687b;
+  }
+}
+.unit {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 1.5rem;
+
+  .preview {
+    align-self: center;
+    width: 300px;
+    .preview {
+      height: 100%;
+      &--path {
+        fill: $accent;
+        &.active--blinker {
+          fill: $yellow;
+          animation: blinker 1s ease-in-out infinite;
+        }
+      }
+    }
+  }
+  .view {
+    align-self: center;
+    img {
+      width: 280px;
+      height: 300px;
+      object-fit: contain;
+    }
+  }
+  .statistics {
+    display: flex;
+    justify-content: space-between;
+    &--item {
+      h3 {
+        font-size: 3rem;
+        color: $white;
+        font-weight: 700;
+      }
+      p {
+        font-size: 1.8rem;
+        color: $white;
+        font-weight: 400;
+      }
+    }
+  }
+  .unit--footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    .unit--info {
+      display: flex;
+      flex-direction: column;
+      h3 {
+        font-size: 6rem;
+        color: $secondary-color;
+        font-weight: 700;
+      }
+    }
+    .navigation {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      gap: 0.4rem;
+      // p {
+      //   font-size: 2rem;
+      //   color: $white;
+      //   font-weight: 400;
+      // }
+      &.back {
+        margin-top: auto;
+        flex-direction: row-reverse;
+      }
+    }
+    .unit--footer--text {
+      font-size: 2rem;
+      color: $white;
+      font-weight: 400;
+    }
   }
 }
 

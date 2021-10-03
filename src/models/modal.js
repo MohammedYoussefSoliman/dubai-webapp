@@ -99,7 +99,15 @@ export default class Modal {
     } else {
       console.log({ selectedFloor, unit });
     }
-    window.location.href = `floor.html?floor=${selectedFloor}&unit=${unit}`;
+
+    let resultUnit;
+
+    if (unit.length > 2) {
+      resultUnit = unit.slice(1, 3);
+    } else if (unit.length <= 2 && unit.length > 0) {
+      resultUnit = unit;
+    }
+    window.location.href = `floor.html?floor=${selectedFloor}&unit=${resultUnit}`;
   };
 
   generateRadioWrapper() {
