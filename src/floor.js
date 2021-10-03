@@ -7,11 +7,7 @@ const app = document.getElementById("app");
 
 //floor
 const floor = new Floor(data[0], app);
-app.appendChild(Floor.floorLoadingScreen());
 floor.render();
-setTimeout(() => {
-  app.removeChild(document.querySelector(".loading--page"));
-}, 3000);
 // search modal
 const UnitSearchModal = new Modal(data[0], app);
 UnitSearchModal.render();
@@ -30,6 +26,12 @@ radioButtons.forEach((radio) => {
 });
 modalForm.addEventListener("submit", Modal.handleModalFormSubmit);
 
+document.addEventListener("DOMContentLoaded", () => {
+  app.appendChild(Floor.floorLoadingScreen());
+  setTimeout(() => {
+    app.removeChild(document.querySelector(".loading--page"));
+  }, 3000);
+});
 // if (authentication.window) {
 //   const currentFloor = new Floor(
 //     data[0],

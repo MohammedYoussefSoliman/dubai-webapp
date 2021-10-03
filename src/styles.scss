@@ -78,7 +78,6 @@ footer {
     width: unset;
     right: 0;
     padding: 1rem;
-    z-index: 0;
   }
   .navigation {
     margin-left: 42px;
@@ -177,7 +176,7 @@ footer {
     flex-direction: row-reverse;
     gap: 2rem;
     padding: 1rem;
-    svg {
+    & > svg {
       height: 100%;
     }
   }

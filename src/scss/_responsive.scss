@@ -52,6 +52,10 @@
     width: 40%;
     min-width: 550px;
   }
+  .unit {
+    min-width: 30vw;
+    margin-bottom: 2rem;
+  }
 }
 
 @include breakpoints(laptop) {
@@ -60,6 +64,96 @@
     min-width: 500px;
     padding: 3rem;
   }
+  .building {
+    &--shape {
+      width: auto;
+      height: 100%;
+    }
+  }
+
+  .floor--header {
+    padding: 1.5rem;
+    .search--button {
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+      img {
+        width: 18px;
+      }
+    }
+  }
+
+  .ordo {
+    gap: 1rem;
+    align-items: center;
+    &--logo {
+      height: 100px;
+    }
+    h4 {
+      font-size: 21px;
+      font-weight: 300;
+      max-width: 150px;
+    }
+    &.floor--ordo {
+      .ordo--logo {
+        height: 60px;
+      }
+      h4 {
+        font-size: 18px;
+        font-weight: 200;
+        max-width: 150px;
+      }
+    }
+
+    .nav {
+      width: 550px;
+      padding: 2.5rem;
+    }
+  }
+  .unit {
+    margin: 1rem;
+    min-width: 30vw;
+    .preview {
+      width: 200px;
+    }
+    .view {
+      align-self: center;
+      img {
+        width: 200px;
+        height: 250px;
+        object-fit: contain;
+      }
+    }
+    .statistics {
+      &--item {
+        h3 {
+          font-size: 2.5rem;
+        }
+        p {
+          font-size: 1.25rem;
+        }
+      }
+    }
+    .unit--footer {
+      .unit--info {
+        h3 {
+          font-size: 5rem;
+        }
+      }
+      .navigation {
+        gap: 0.4rem;
+        &.back {
+          margin-top: auto;
+          flex-direction: row-reverse;
+        }
+      }
+      .unit--footer--text {
+        font-size: 1.5rem;
+        color: $white;
+        font-weight: 400;
+      }
+    }
+  }
 }
 
 @include breakpoints(ipad) {
@@ -67,6 +161,37 @@
     width: 60%;
     min-width: 500px;
     padding: 3rem;
+  }
+  .building {
+    &--shape {
+      width: auto;
+      height: 100%;
+    }
+  }
+  .nav {
+    width: 550px;
+    padding: 2.5rem;
+  }
+  footer {
+    .navigation {
+      gap: 1.25rem;
+      &--button {
+        min-height: 50px;
+        min-width: 120px;
+        padding: 0.5rem 1rem;
+        font-size: 24px;
+        font-weight: 600;
+      }
+      margin: auto;
+    }
+  }
+  .ordo {
+    gap: 1rem !important;
+    h4 {
+      font-size: 21px !important;
+      font-weight: 300 !important;
+      max-width: 150px !important;
+    }
   }
 }
 
@@ -79,14 +204,107 @@
   .modal {
     width: 90%;
     padding: 2rem;
+    min-width: auto;
+    &--body {
+      gap: 1.25rem;
+      &__radios {
+        gap: 1rem;
+        .radio {
+          .radio--button {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+  .content--wrapper {
+    display: block !important;
+    width: 100vw;
+    & > svg {
+      height: auto !important;
+      width: 100%;
+    }
+  }
+  .unit {
+    display: grid !important;
+    grid-template-columns: 150px 150px auto;
+    .statistics {
+      flex-direction: column !important;
+      justify-content: flex-start;
+      gap: 1.5rem;
+      &--item {
+        h3 {
+          font-size: 2rem;
+        }
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
+    .unit--footer {
+      grid-column-start: 1;
+      grid-column-end: span 2;
+      grid-row-start: 2;
+      grid-row-end: span 3;
+      margin-bottom: 2rem;
+    }
+  }
+  footer {
+    align-items: flex-end;
+    .navigation {
+      gap: 1rem;
+      flex-direction: column;
+      margin-right: 3rem;
+      &--button {
+        min-height: 50px;
+        min-width: 120px;
+        padding: 0.5rem 1rem;
+        font-size: 21px;
+        font-weight: 600;
+      }
+    }
+  }
+  .ordo {
+    gap: 1rem !important;
+    h4 {
+      font-size: 21px !important;
+      font-weight: 300 !important;
+      max-width: 150px !important;
+    }
   }
 }
 
 @include breakpoints(largmobile) {
   .nav {
     width: 100%;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 0;
+  }
+  .unit {
+    display: flex !important;
+    flex-direction: column;
+    .preview {
+      order: 3;
+    }
+    .view {
+      order: 2;
+    }
+    .statistics {
+      flex-direction: row !important;
+      justify-content: space-between;
+      order: 1;
+      &--item {
+        h3 {
+          font-size: 2rem;
+        }
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
+    .unit--footer {
+      order: 4;
+    }
   }
 }
 
