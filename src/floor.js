@@ -30,9 +30,9 @@ modalForm.addEventListener(
   false
 );
 
-document.addEventListener("DOMContentLoaded", () => {
-  app.appendChild(Floor.floorLoadingScreen());
-  setTimeout(() => {
-    app.removeChild(document.querySelector(".loading--page"));
-  }, 3000);
-});
+// document.addEventListener("DOMContentLoaded", () => {
+//   app.appendChild(Floor.floorLoadingScreen());
+//   setTimeout(() => {
+//     app.removeChild(document.querySelector(".loading--page"));
+//   }, 3000);
+// });

@@ -73,11 +73,10 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem;
+  padding: 1rem;
   &.floor--footer {
     width: unset;
     right: 0;
-    padding: 1rem;
   }
   .navigation {
     margin-left: 42px;
@@ -109,15 +108,15 @@ footer {
   }
   .ordo {
     display: flex;
-    gap: 1.25rem;
+    gap: 1rem;
     align-items: center;
     &--logo {
-      height: 100px;
+      height: 70px;
     }
     h4 {
       color: $white;
-      font-size: 28px;
-      font-weight: 500;
+      font-size: 18px;
+      font-weight: 300;
       max-width: 170px;
       text-transform: capitalize;
     }

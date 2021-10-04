@@ -186,9 +186,12 @@
     }
   }
   .ordo {
-    gap: 1rem !important;
+    gap: 0 !important;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
     h4 {
-      font-size: 21px !important;
+      font-size: 16px !important;
       font-weight: 300 !important;
       max-width: 150px !important;
     }
@@ -250,7 +253,8 @@
     }
   }
   footer {
-    align-items: flex-end;
+    position: static;
+    width: 100%;
     .navigation {
       gap: 1rem;
       flex-direction: column;
@@ -264,17 +268,24 @@
       }
     }
   }
-  .ordo {
-    gap: 1rem !important;
-    h4 {
-      font-size: 21px !important;
-      font-weight: 300 !important;
-      max-width: 150px !important;
-    }
-  }
 }
 
 @include breakpoints(largmobile) {
+  footer {
+    position: absolute;
+    right: auto;
+    left: 0;
+    top: -20vh;
+    &.floor--ordo {
+      margin-left: 1rem;
+      .ordo--logo {
+        height: 40px !important;
+      }
+      h4 {
+        font-size: 14px !important;
+      }
+    }
+  }
   .nav {
     width: 100%;
     padding: 1rem;

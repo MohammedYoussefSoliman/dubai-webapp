@@ -245,6 +245,9 @@ export default class Floor {
       const path = document.createElementNS(xmlns, "path");
       path.classList.add("unit--path");
       path.classList.add("path");
+      if (unit.status === "sold") {
+        path.classList.add("sold");
+      }
       path.setAttribute("data-name", unit.id);
       path.setAttribute("id", unit.id);
       path.setAttributeNS(null, "d", `${unit.shape.d}`);
@@ -256,7 +259,6 @@ export default class Floor {
     allUnits.forEach((unit) => {
       const currentUnit = units.find((u) => u.id == unit.id);
       unit.addEventListener("click", (event) => {
-        console.log(unit);
         if (currentUnit.status === "available") {
           window.location.href = `floor.html?floor=${floor.floor}&unit=${unit.id}`;
         } else {
@@ -264,7 +266,9 @@ export default class Floor {
         }
       });
       unit.addEventListener("mouseenter", (event) => {
-        unit.classList.add("active");
+        if (unit.status === "available") {
+          unit.classList.add("active");
+        }
       });
       unit.addEventListener("mouseleave", (event) => {
         unit.classList.remove("active");

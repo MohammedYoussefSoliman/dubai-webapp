@@ -70,6 +70,8 @@ body {
   font-family: $barlow;
   white-space: normal;
   background: $primary-color;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
@@ -123,7 +125,7 @@ h1 {
 }
 
 .unit--path {
-  &.notAvailable {
+  &.sold {
     fill: #5e5e5e;
     opacity: 0.7;
     cursor: not-allowed;
