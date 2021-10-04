@@ -387,6 +387,8 @@ footer {
       .error--block {
         color: $red;
         display: none;
+        margin-top: 0.75rem;
+        font-size: 1rem;
       }
       &.error {
         .search--input {

@@ -29,8 +29,11 @@ cancelButton.addEventListener("click", Modal.closeModal);
 radioButtons.forEach((radio) => {
   radio.addEventListener("click", Modal.handleRadioButtonChange);
 });
-modalForm.addEventListener("submit", Modal.handleModalFormSubmit);
-
+modalForm.addEventListener(
+  "submit",
+  Modal.handleModalFormSubmit(data[0].floors),
+  false
+);
 // if (authentication.window) {
 //   const ronza = new Building(
 //     data[0],

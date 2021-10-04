@@ -1,4 +1,5 @@
 import "../styles.scss";
+import Is from "@flk/supportive-is";
 
 export default class Modal {
   constructor(projectData, wrapper) {
@@ -83,31 +84,35 @@ export default class Modal {
     }
   }
 
-  static handleModalFormSubmit = (e) => {
-    e.preventDefault();
-    const modalForm = document.querySelector("#modalForm");
-    const selectedFloor = modalForm.querySelector(
-      'input[name="floor"]:checked'
-    ).value;
-    const unit = modalForm.querySelector('input[name="unit"]').value;
-    if (!unit) {
-      triggerError(modalForm, "unit name is required");
-      return;
-    } else if (!selectedFloor) {
-      triggerError(modalForm, "floor must be selected");
-      return;
-    } else {
-      console.log({ selectedFloor, unit });
-    }
+  static handleModalFormSubmit = (floors) => {
+    return (e) => {
+      e.preventDefault();
+      const modalForm = document.querySelector("#modalForm");
+      const selectedFloor = modalForm.querySelector(
+        'input[name="floor"]:checked'
+      ).value;
+      const unit = modalForm.querySelector('input[name="unit"]').value;
+      const currentFloor = floors.find((floor) => floor.floor == selectedFloor);
+      const currentUnits = currentFloor.units;
 
-    let resultUnit;
+      let resultUnit;
 
-    if (unit.length > 2) {
-      resultUnit = unit.slice(1, 3);
-    } else if (unit.length <= 2 && unit.length > 0) {
-      resultUnit = unit;
-    }
-    window.location.href = `floor.html?floor=${selectedFloor}&unit=${resultUnit}`;
+      if (unit.length > 2) {
+        resultUnit = unit.slice(1, 3);
+      } else if (unit.length <= 2 && unit.length > 0) {
+        resultUnit = unit;
+      }
+      const foundUnit = currentUnits.find((unit) => unit.id == resultUnit);
+      if (!Is.empty(foundUnit)) {
+        window.location.href = `floor.html?floor=${selectedFloor}&unit=${resultUnit}`;
+      } else {
+        const searchInput = modalForm.querySelector(".search--input");
+        const errorBlock = modalForm.querySelector(".error--block");
+        searchInput.classList.add = "error";
+        errorBlock.style.display = "block";
+        errorBlock.innerText = "unit not found";
+      }
+    };
   };
 
   generateRadioWrapper() {
